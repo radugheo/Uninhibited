@@ -11,4 +11,20 @@ public class Education {
         this.duration = duration_;
         this.type = type_;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getCost() {
+        return cost;
+    }
+
+    public int getDuration() {
+        return duration;
+    }
+
+    public int getType() {
+        return type;
+    }
 }
