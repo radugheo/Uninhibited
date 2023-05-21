@@ -1,6 +1,6 @@
 package com.example.uninhibited.generators;
 
-import com.example.uninhibited.Car;
+import com.example.uninhibited.core.Car;
 
 import java.util.*;
 

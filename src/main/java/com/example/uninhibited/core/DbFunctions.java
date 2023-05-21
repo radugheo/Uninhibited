@@ -1,4 +1,4 @@
-package com.example.uninhibited;
+package com.example.uninhibited.core;
 
 import com.example.uninhibited.generators.CarGenerator;
 import com.example.uninhibited.generators.EducationGenerator;

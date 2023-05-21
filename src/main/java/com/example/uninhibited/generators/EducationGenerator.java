@@ -1,6 +1,6 @@
 package com.example.uninhibited.generators;
 
-import com.example.uninhibited.Education;
+import com.example.uninhibited.core.Education;
 
 import java.util.ArrayList;
 import java.util.HashMap;

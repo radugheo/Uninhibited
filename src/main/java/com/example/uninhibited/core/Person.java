@@ -1,4 +1,7 @@
-package com.example.uninhibited;
+package com.example.uninhibited.core;
+
+import javafx.beans.property.DoubleProperty;
+import javafx.beans.property.SimpleDoubleProperty;
 
 import java.util.ArrayList;
 
@@ -15,6 +18,11 @@ public class Person {
     private ArrayList<Car> cars;
     private ArrayList<House> houses;
 
+    private DoubleProperty healthProperty;
+    private DoubleProperty happinessProperty;
+    private DoubleProperty smartsProperty;
+    private DoubleProperty looksProperty;
+
     public Person(String name_, String gender_, String nationality_, Stats stats_) {
         this.name = name_;
         this.gender = gender_;
@@ -23,6 +31,25 @@ public class Person {
         this.animals = new ArrayList<Animal>();
         this.cars = new ArrayList<Car>();
         this.houses = new ArrayList<House>();
+        this.healthProperty = new SimpleDoubleProperty(stats.getHealth());
+        this.happinessProperty = new SimpleDoubleProperty(stats.getHappiness());
+        this.smartsProperty = new SimpleDoubleProperty(stats.getSmarts());
+        this.looksProperty = new SimpleDoubleProperty(stats.getLooks());
+    }
+    public DoubleProperty healthProperty() {
+        return healthProperty;
+    }
+
+    public DoubleProperty happinessProperty() {
+        return happinessProperty;
+    }
+
+    public DoubleProperty smartsProperty() {
+        return smartsProperty;
+    }
+
+    public DoubleProperty looksProperty() {
+        return looksProperty;
     }
     public String getName() {
         return this.name;

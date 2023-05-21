@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.shape.Rectangle?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.uninhibited.controllers.MainController">
+
+    <top>
+        <GridPane hgap="10" vgap="10" styleClass="top-info" alignment="CENTER">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10" />
+            </padding>
+            <VBox spacing="10" GridPane.columnIndex="0">
+                <StackPane fx:id="healthBarPane" prefWidth="200">
+                    <Rectangle fx:id="healthBarBackground" height="20"/>
+                    <Rectangle fx:id="healthBarForeground" height="20"/>
+                    <Label styleClass="progress-label">Health</Label>
+                </StackPane>
+                <StackPane fx:id="happinessBarPane" prefWidth="200">
+                    <Rectangle fx:id="happinessBarBackground" height="20"/>
+                    <Rectangle fx:id="happinessBarForeground" height="20"/>
+                    <Label styleClass="progress-label">Happiness</Label>
+                </StackPane>
+            </VBox>
+            <VBox spacing="10" GridPane.columnIndex="1">
+                <Label fx:id="playerNameAge" text="Player Name, Age" />
+                <Label fx:id="playerNationality" text="Nationality" />
+            </VBox>
+            <VBox spacing="10" GridPane.columnIndex="2">
+                <StackPane fx:id="smartsBarPane" prefWidth="200">
+                    <Rectangle fx:id="smartsBarBackground" height="20"/>
+                    <Rectangle fx:id="smartsBarForeground" height="20"/>
+                    <Label styleClass="progress-label">Smarts</Label>
+                </StackPane>
+                <StackPane fx:id="looksBarPane" prefWidth="200">
+                    <Rectangle fx:id="looksBarBackground" height="20"/>
+                    <Rectangle fx:id="looksBarForeground" height="20"/>
+                    <Label styleClass="progress-label">Looks</Label>
+                </StackPane>
+            </VBox>
+        </GridPane>
+    </top>
+
+    <center>
+        <Label fx:id="centerLabel" text="Welcome to the game!" styleClass="center-label"/>
+    </center>
+
+    <bottom>
+        <VBox styleClass="bottom-info">
+            <HBox spacing="10" alignment="CENTER">
+                <padding>
+                    <Insets top="0" right="0" bottom="10" left="0" />
+                </padding>
+                <Button fx:id="educationButton" text="Education" onAction="#onEducationButtonClick"/>
+                <Button fx:id="jobsButton" text="Jobs" onAction="#onJobsButtonClick"/>
+                <Button fx:id="carsButton" text="Cars" onAction="#onCarsButtonClick"/>
+                <Button fx:id="housesButton" text="Houses" onAction="#onHousesButtonClick"/>
+                <Button fx:id="ageUpButton" text="Age Up" onAction="#onAgeUpButtonClick"/>
+                <Button fx:id="profileButton" text="Profile" onAction="#onProfileButtonClick"/>
+            </HBox>
+        </VBox>
+    </bottom>
+
+    <stylesheets>
+        <URL value="@styles/homepage.css" />
+    </stylesheets>
+
+</BorderPane>

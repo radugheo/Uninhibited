@@ -1,8 +1,7 @@
 package com.example.uninhibited.generators;
 
-import com.example.uninhibited.Job;
+import com.example.uninhibited.core.Job;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class JobGenerator {

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import java.net.URL?>
+<BorderPane prefWidth="360" prefHeight="640" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.uninhibited.controllers.IntroController">
+    <center>
+        <VBox spacing="20" alignment="CENTER">
+            <StackPane>
+                <Text text="Uninhibited" styleClass="logo-text" />
+            </StackPane>
+            <Button text="Start Game" prefWidth="150" styleClass="start-button" onAction="#onStartButtonClick">
+                <stylesheets>
+                    <URL value="@styles/intro.css" />
+                </stylesheets>
+            </Button>
+        </VBox>
+    </center>
+    <stylesheets>
+        <URL value="@styles/intro.css" />
+    </stylesheets>
+</BorderPane>

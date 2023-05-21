@@ -1,4 +1,4 @@
-package com.example.uninhibited;
+package com.example.uninhibited.core;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package com.example.uninhibited;
+package com.example.uninhibited.core;
 
 public class Stats {
     private int health;
@@ -40,5 +40,9 @@ public class Stats {
     }
     public void setLooks(int looks) {
         this.looks = looks;
+    }
+
+    public int getSmarts() {
+        return smarts;
     }
 }
