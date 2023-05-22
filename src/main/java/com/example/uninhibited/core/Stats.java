@@ -1,22 +1,24 @@
 package com.example.uninhibited.core;
 
 public class Stats {
+    private static Stats instance = null;
     private int health;
     private int happiness;
     private int smarts;
     private int looks;
-    public Stats(int health_, int happiness_, int smarts_, int looks_){
+    private Stats(int health_, int happiness_, int smarts_, int looks_){
         this.health = health_;
         this.happiness = happiness_;
         this.smarts = smarts_;
         this.looks = looks_;
     }
-    public Stats(Stats stats_) {
+    private Stats(Stats stats_) {
         this.health = stats_.health;
         this.happiness = stats_.happiness;
         this.smarts = stats_.smarts;
         this.looks = stats_.looks;
     }
+
     public int getHealth() {
         return health;
     }
@@ -44,5 +46,14 @@ public class Stats {
 
     public int getSmarts() {
         return smarts;
+    }
+    public static Stats getInstance(int health_, int happiness_, int smarts_, int looks_) {
+        if (instance == null) {
+            instance = new Stats(health_, happiness_, smarts_, looks_);
+        }
+        return instance;
+    }
+    public static Stats getInstance() {
+        return instance;
     }
 }

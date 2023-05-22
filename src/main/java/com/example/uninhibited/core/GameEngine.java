@@ -4,7 +4,7 @@ import java.util.*;
 
 public class GameEngine {
     private static Scanner scanner;
-    private Person player;
+    private Player player;
     private ArrayList<Car> availableCars;
     private ArrayList<House> availableHouses;
     private Set<Job> availableJobs;
@@ -97,8 +97,8 @@ public class GameEngine {
         int randomHappiness = random.nextInt(101);
         int randomIntelligence = random.nextInt(101);
         int randomLooks = random.nextInt(101);
-        Stats stats = new Stats(randomHealth, randomHappiness, randomIntelligence, randomLooks);
-        this.player = new Person(inputName, inputGender, inputNationality, stats);
+        Stats.getInstance(randomHealth, randomHappiness, randomIntelligence, randomLooks);
+        Player.getInstance(inputName, inputGender, inputNationality, Stats.getInstance());
         this.player.setMoney(500000000);
     }
     public void modifyStats(){

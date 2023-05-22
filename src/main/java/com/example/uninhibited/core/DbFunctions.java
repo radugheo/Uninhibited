@@ -9,6 +9,7 @@ import java.sql.*;
 import java.util.ArrayList;
 
 public class DbFunctions {
+    private static Connection conn;
     public static Connection connect(String dbName, String user, String password) {
         String url = "jdbc:postgresql://localhost:5432/" + dbName + "?user=" + user + "&password=" + password;
         Connection conn = null;
@@ -20,12 +21,12 @@ public class DbFunctions {
             else
                 System.out.println("Failed to make connection!");
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            System.out.println("something else"+e+" "+"    STOPPED HERE");
         }
         return conn;
     }
 
-    public static void createCarTable(Connection conn, String tableName){
+    public static void createCarTable(String tableName){
         Statement statement;
         try{
             String query = "CREATE TABLE " + tableName + "(car_id SERIAL, name VARCHAR(200), price NUMERIC(200), age NUMERIC(200), health NUMERIC(200), monthly_cost NUMERIC(200), power NUMERIC(200), color VARCHAR(200), speed NUMERIC(200), PRIMARY KEY(car_id));";
@@ -37,7 +38,7 @@ public class DbFunctions {
         }
     }
 
-    public static void createHouseTable(Connection conn, String tableName) {
+    public static void createHouseTable(String tableName) {
         Statement statement;
         try {
             String query = "CREATE TABLE " + tableName + " (house_id SERIAL, name VARCHAR(200), price NUMERIC(200), age NUMERIC(200), health NUMERIC(200), monthly_cost NUMERIC(200), size NUMERIC(200), rooms NUMERIC(200), monthly_income NUMERIC(200), PRIMARY KEY(house_id));";
@@ -49,7 +50,7 @@ public class DbFunctions {
         }
     }
 
-    public static  void createJobTable(Connection conn, String tableName) {
+    public static  void createJobTable(String tableName) {
         Statement statement;
         try {
             String query = "CREATE TABLE " + tableName + " (job_id SERIAL, name VARCHAR(200), salary NUMERIC(200), company VARCHAR(200), education_level VARCHAR(200), PRIMARY KEY(job_id));";
@@ -61,7 +62,7 @@ public class DbFunctions {
         }
     }
 
-    public static void createEducationTable(Connection conn, String tableName) {
+    public static void createEducationTable(String tableName) {
         Statement statement;
         try {
             String query = "CREATE TABLE " + tableName + " (education_id SERIAL, name VARCHAR(200), cost NUMERIC(200), duration NUMERIC(200), type NUMERIC(200), PRIMARY KEY(education_id));";
@@ -73,7 +74,7 @@ public class DbFunctions {
         }
     }
 
-    public static void insertCar(Connection conn, String tableName, Car car) {
+    public static void insertCar(String tableName, Car car) {
         try {
             String query = "INSERT INTO " + tableName + " (name, price, age, health, monthly_cost, power, color, speed) VALUES (?, ?, ?, ?, ?, ?, ?, ?);";
             PreparedStatement preparedStatement = conn.prepareStatement(query);
@@ -86,13 +87,12 @@ public class DbFunctions {
             preparedStatement.setString(7, car.getColor());
             preparedStatement.setDouble(8, car.getSpeed());
             preparedStatement.executeUpdate();
-            System.out.println("Value inserted into table " + tableName);
         } catch (Exception e) {
             System.out.println(e);
         }
     }
 
-    public static void insertHouse(Connection conn, String tableName, House house) {
+    public static void insertHouse(String tableName, House house) {
         try {
             String query = "INSERT INTO " + tableName + " (name, price, age, health, monthly_cost, size, rooms, monthly_income) VALUES (?, ?, ?, ?, ?, ?, ?, ?);";
             PreparedStatement preparedStatement = conn.prepareStatement(query);
@@ -105,13 +105,12 @@ public class DbFunctions {
             preparedStatement.setDouble(7, house.getRooms());
             preparedStatement.setDouble(8, house.getMonthlyIncome());
             preparedStatement.executeUpdate();
-            System.out.println("Value inserted into table " + tableName);
         } catch (Exception e) {
             System.out.println(e);
         }
     }
 
-    public static void insertJob(Connection conn, String tableName, Job job) {
+    public static void insertJob(String tableName, Job job) {
         try {
             String query = "INSERT INTO " + tableName + " (name, salary, company, education_level) VALUES (?, ?, ?, ?);";
             PreparedStatement preparedStatement = conn.prepareStatement(query);
@@ -120,13 +119,12 @@ public class DbFunctions {
             preparedStatement.setString(3, job.getCompany());
             preparedStatement.setString(4, job.getEducationLevel());
             preparedStatement.executeUpdate();
-            System.out.println("Value inserted into table " + tableName);
         } catch (Exception e) {
             System.out.println(e);
         }
     }
 
-    public static void insertEducation(Connection conn, String tableName, Education education) {
+    public static void insertEducation(String tableName, Education education) {
         try {
             String query = "INSERT INTO " + tableName + " (name, cost, duration, type) VALUES (?, ?, ?, ?);";
             PreparedStatement preparedStatement = conn.prepareStatement(query);
@@ -135,49 +133,42 @@ public class DbFunctions {
             preparedStatement.setDouble(3, education.getDuration());
             preparedStatement.setDouble(4, education.getType());
             preparedStatement.executeUpdate();
-            System.out.println("Value inserted into table " + tableName);
         } catch (Exception e) {
             System.out.println(e);
         }
     }
 
-    public static void selectCars(Connection conn, String tableName) {
+    public static ArrayList<Car> selectCars(String tableName) {
         try {
             String query = "SELECT * FROM " + tableName;
             Statement statement = conn.createStatement();
             ResultSet resultSet = statement.executeQuery(query);
-
+            ArrayList<Car> cars = new ArrayList<>();
             while (resultSet.next()) {
                 int carId = resultSet.getInt("car_id");
                 String name = resultSet.getString("name");
-                double price = resultSet.getDouble("price");
-                double age = resultSet.getDouble("age");
-                double health = resultSet.getDouble("health");
-                double monthlyCost = resultSet.getDouble("monthly_cost");
-                double power = resultSet.getDouble("power");
+                int price = resultSet.getInt("price");
+                int age = resultSet.getInt("age");
+                int health = resultSet.getInt("health");
+                int monthlyCost = resultSet.getInt("monthly_cost");
+                int power = resultSet.getInt("power");
                 String color = resultSet.getString("color");
-                double speed = resultSet.getDouble("speed");
+                int speed = resultSet.getInt("speed");
 
-                System.out.println("Car ID: " + carId);
-                System.out.println("Name: " + name);
-                System.out.println("Price: " + price);
-                System.out.println("Age: " + age);
-                System.out.println("Health: " + health);
-                System.out.println("Monthly Cost: " + monthlyCost);
-                System.out.println("Power: " + power);
-                System.out.println("Color: " + color);
-                System.out.println("Speed: " + speed);
-                System.out.println("-------------------------");
+                Car car = new Car(name, price, age, health, monthlyCost, power, color, speed);
+                cars.add(car);
             }
 
             resultSet.close();
             statement.close();
+            return cars;
         } catch (Exception e) {
             System.out.println(e);
+            return null;
         }
     }
 
-    public static void selectHouses(Connection conn, String tableName) {
+    public static void selectHouses(String tableName) {
         try {
             String query = "SELECT * FROM " + tableName;
             Statement statement = conn.createStatement();
@@ -213,7 +204,7 @@ public class DbFunctions {
         }
     }
 
-    public static void selectJobs(Connection conn, String tableName) {
+    public static void selectJobs(String tableName) {
         try {
             String query = "SELECT * FROM " + tableName;
             Statement statement = conn.createStatement();
@@ -241,7 +232,7 @@ public class DbFunctions {
         }
     }
 
-    public static void selectEducation(Connection conn, String tableName) {
+    public static void selectEducation(String tableName) {
         try {
             String query = "SELECT * FROM " + tableName;
             Statement statement = conn.createStatement();
@@ -269,7 +260,7 @@ public class DbFunctions {
         }
     }
 
-    public static void updateName(Connection conn, String table_name, String old_name, String new_name){
+    public static void updateName(String table_name, String old_name, String new_name){
         Statement statement;
         try {
             String query = String.format("update %s set name='%s' where name='%s'", table_name, new_name, old_name);
@@ -281,7 +272,7 @@ public class DbFunctions {
         }
     }
 
-    public static void deleteTable(Connection conn, String table_name){
+    public static void deleteTable(String table_name){
         Statement statement;
         try {
             String query = String.format("drop table %s", table_name);
@@ -293,7 +284,7 @@ public class DbFunctions {
         }
     }
 
-    public static void deleteAllObjects(Connection conn, String tableName) {
+    public static void deleteAllObjects(String tableName) {
         try {
             String query = "DELETE FROM " + tableName;
             Statement statement = conn.createStatement();
@@ -307,29 +298,33 @@ public class DbFunctions {
 
     public static void populateDatabase(){
         try {
-            Connection conn = DbFunctions.connect("uninhibited", "postgres", "admin");
+            conn = DbFunctions.connect("uninhibited", "postgres", "admin");
             // create tables
-            DbFunctions.createCarTable(conn, "cars");
-            DbFunctions.createHouseTable(conn, "houses");
-            DbFunctions.createJobTable(conn, "jobs");
-            DbFunctions.createEducationTable(conn, "education");
+            DbFunctions.createCarTable("cars");
+            DbFunctions.createHouseTable("houses");
+            DbFunctions.createJobTable("jobs");
+            DbFunctions.createEducationTable("education");
             // insert data
             ArrayList<Car> cars = CarGenerator.getCars();
             for (Car car : cars) {
-                DbFunctions.insertCar(conn, "cars", car);
+                DbFunctions.insertCar("cars", car);
             }
+            System.out.println("Cars inserted");
             ArrayList<House> houses = HouseGenerator.getHouses();
             for (House house : houses) {
-                DbFunctions.insertHouse(conn, "houses", house);
+                DbFunctions.insertHouse("houses", house);
             }
+            System.out.println("Houses inserted");
             ArrayList<Job> jobs = JobGenerator.getJobs();
             for (Job job : jobs) {
-                DbFunctions.insertJob(conn, "jobs", job);
+                DbFunctions.insertJob("jobs", job);
             }
+            System.out.println("Jobs inserted");
             ArrayList<Education> educations = EducationGenerator.getEducations();
             for (Education education : educations) {
-                DbFunctions.insertEducation(conn, "education", education);
+                DbFunctions.insertEducation("education", education);
             }
+            System.out.println("Educations inserted");
         } catch (Exception e) {
             System.out.println(e);
         }

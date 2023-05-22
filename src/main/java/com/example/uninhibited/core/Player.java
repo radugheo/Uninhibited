@@ -5,7 +5,8 @@ import javafx.beans.property.SimpleDoubleProperty;
 
 import java.util.ArrayList;
 
-public class Person {
+public class Player {
+    private static Player instance = null;
     private String name;
     private int age;
     private String gender;
@@ -23,11 +24,11 @@ public class Person {
     private DoubleProperty smartsProperty;
     private DoubleProperty looksProperty;
 
-    public Person(String name_, String gender_, String nationality_, Stats stats_) {
+    private Player(String name_, String gender_, String nationality_, Stats stats_) {
         this.name = name_;
         this.gender = gender_;
         this.nationality = nationality_;
-        this.stats = new Stats(stats_);
+        this.stats = stats_;
         this.animals = new ArrayList<Animal>();
         this.cars = new ArrayList<Car>();
         this.houses = new ArrayList<House>();
@@ -113,5 +114,18 @@ public class Person {
     }
     public ArrayList<House> getHouses() {
         return this.houses;
+    }
+    public void buyCar(Car car_) {
+        this.cars.add(car_);
+        this.money -= car_.getPrice();
+    }
+    public static Player getInstance(String name_, String gender_, String nationality_, Stats stats_) {
+        if(instance == null) {
+            instance = new Player(name_, gender_, nationality_, stats_);
+        }
+        return instance;
+    }
+    public static Player getInstance() {
+        return instance;
     }
 }

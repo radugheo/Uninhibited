@@ -1,6 +1,7 @@
 package com.example.uninhibited;
 
 import com.example.uninhibited.controllers.IntroController;
+import com.example.uninhibited.core.DbFunctions;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -13,9 +14,9 @@ public class Main extends Application {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/uninhibited/intro.fxml"));
         Parent root = loader.load();
 
-        IntroController controller = loader.getController();
+        DbFunctions.populateDatabase();
         Scene scene = new Scene(root, 800, 600);
-        controller.setMainScene(scene);
+        IntroController.setMainScene(scene);
 
         primaryStage.setTitle("Uninhibited");
         primaryStage.setScene(scene);

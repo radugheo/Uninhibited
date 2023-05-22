@@ -1,13 +1,14 @@
 package com.example.uninhibited.controllers;
 
-import com.example.uninhibited.core.Person;
+import com.example.uninhibited.core.Player;
 import com.example.uninhibited.core.Stats;
 import javafx.beans.binding.Bindings;
 import javafx.beans.property.DoubleProperty;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
-import javafx.scene.control.ProgressBar;
 import javafx.scene.layout.StackPane;
 import javafx.scene.paint.Color;
 import javafx.scene.paint.CycleMethod;
@@ -15,7 +16,10 @@ import javafx.scene.paint.LinearGradient;
 import javafx.scene.paint.Stop;
 import javafx.scene.shape.Rectangle;
 
-public class MainController {
+import java.io.IOException;
+import java.util.Random;
+
+public class MainController extends GenericController {
     @FXML
     private Button carsButton;
     @FXML
@@ -32,6 +36,8 @@ public class MainController {
     private Label playerNameAge;
     @FXML
     private Label playerNationality;
+    @FXML
+    private Label playerMoney;
     @FXML
     private StackPane healthBarPane;
 
@@ -68,17 +74,14 @@ public class MainController {
     @FXML
     private Rectangle looksBarForeground;
 
-    private Person player;
-
     public void initialize() {
-        player = new Person("Player", "Boy", "Romanian", new Stats(98, 56, 10, 23));
-        playerNameAge.setText(player.getName() + ", " + player.getAge() + " yo");
-        playerNationality.setText(player.getNationality());
-
-        initializeBar(healthBarForeground, player.healthProperty());
-        initializeBar(happinessBarForeground, player.happinessProperty());
-        initializeBar(smartsBarForeground, player.smartsProperty());
-        initializeBar(looksBarForeground, player.looksProperty());
+        playerNameAge.setText(Player.getInstance().getName() + ", " + Player.getInstance().getAge() + " yo");
+        playerNationality.setText(Player.getInstance().getNationality());
+        playerMoney.setText("€" + Player.getInstance().getMoney());
+        initializeBar(healthBarForeground, Player.getInstance().healthProperty());
+        initializeBar(happinessBarForeground, Player.getInstance().happinessProperty());
+        initializeBar(smartsBarForeground, Player.getInstance().smartsProperty());
+        initializeBar(looksBarForeground, Player.getInstance().looksProperty());
     }
     private void initializeBar(Rectangle bar, DoubleProperty property) {
         bar.widthProperty().bind(healthBarPane.widthProperty());
@@ -95,8 +98,11 @@ public class MainController {
     }
 
     @FXML
-    public void onCarsButtonClick() {
+    public void onCarsButtonClick() throws IOException {
         // TODO: Go to the cars screen
+        Parent homeRoot = FXMLLoader.load(getClass().getResource("/com/example/uninhibited/cars_menu.fxml"));
+        mainScene.setRoot(homeRoot);
+        CarMenuController.setMainScene(mainScene);
     }
 
     @FXML

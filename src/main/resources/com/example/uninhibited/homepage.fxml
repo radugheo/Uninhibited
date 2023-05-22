@@ -30,6 +30,7 @@
             <VBox spacing="10" GridPane.columnIndex="1">
                 <Label fx:id="playerNameAge" text="Player Name, Age" />
                 <Label fx:id="playerNationality" text="Nationality" />
+                <Label fx:id="playerMoney" text="Money" />
             </VBox>
             <VBox spacing="10" GridPane.columnIndex="2">
                 <StackPane fx:id="smartsBarPane" prefWidth="200">
