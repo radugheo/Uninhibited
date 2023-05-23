@@ -27,4 +27,14 @@ public class Education {
     public int getType() {
         return type;
     }
+
+    @Override
+    public String toString() {
+        return "Education{" +
+                "name='" + name + '\'' +
+                ", cost=" + cost +
+                ", duration=" + duration +
+                ", type=" + type +
+                '}';
+    }
 }

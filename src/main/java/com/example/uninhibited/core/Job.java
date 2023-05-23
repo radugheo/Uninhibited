@@ -23,4 +23,14 @@ public class Job {
     public String getEducationLevel() {
         return educationLevel;
     }
+
+    @Override
+    public String toString() {
+        return "Job{" +
+                "name='" + name + '\'' +
+                ", salary=" + salary +
+                ", company='" + company + '\'' +
+                ", educationLevel='" + educationLevel + '\'' +
+                '}';
+    }
 }

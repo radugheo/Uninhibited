@@ -9,7 +9,7 @@
     <Label text="Choose a category:" />
     <RadioButton fx:id="allCarsButton" text="All Cars" onAction="#handleRadioButtonSelection"/>
     <RadioButton fx:id="yourCarsButton" text="Your Cars" onAction="#handleRadioButtonSelection"/>
-
+    <Button text="Back" onAction="#onBackButtonClick" />
     <stylesheets>
         <URL value="@styles/cars.css" />
     </stylesheets>

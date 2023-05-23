@@ -16,8 +16,10 @@ public class DbFunctions {
         try {
             Class.forName("org.postgresql.Driver");
             conn = DriverManager.getConnection(url);
-            if (conn != null)
+            if (conn != null) {
                 System.out.println("Connected to the database!");
+                AuditService.writeAuditLog("connected to the database");
+            }
             else
                 System.out.println("Failed to make connection!");
         } catch (Exception e) {
@@ -33,6 +35,7 @@ public class DbFunctions {
             statement = conn.createStatement();
             statement.executeUpdate(query);
             System.out.println("Tabel " + tableName + " created");
+            AuditService.writeAuditLog("created table " + tableName);
         }catch (Exception e){
             System.out.println(e);
         }
@@ -45,6 +48,7 @@ public class DbFunctions {
             statement = conn.createStatement();
             statement.executeUpdate(query);
             System.out.println("Table " + tableName + " created");
+            AuditService.writeAuditLog("created table " + tableName);
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -57,6 +61,7 @@ public class DbFunctions {
             statement = conn.createStatement();
             statement.executeUpdate(query);
             System.out.println("Table " + tableName + " created");
+            AuditService.writeAuditLog("created table " + tableName);
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -69,6 +74,7 @@ public class DbFunctions {
             statement = conn.createStatement();
             statement.executeUpdate(query);
             System.out.println("Table " + tableName + " created");
+            AuditService.writeAuditLog("created table " + tableName);
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -87,6 +93,7 @@ public class DbFunctions {
             preparedStatement.setString(7, car.getColor());
             preparedStatement.setDouble(8, car.getSpeed());
             preparedStatement.executeUpdate();
+            AuditService.writeAuditLog("inserted car " + car + " in table " + tableName);
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -105,6 +112,7 @@ public class DbFunctions {
             preparedStatement.setDouble(7, house.getRooms());
             preparedStatement.setDouble(8, house.getMonthlyIncome());
             preparedStatement.executeUpdate();
+            AuditService.writeAuditLog("inserted house " + house + " in table " + tableName);
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -119,6 +127,7 @@ public class DbFunctions {
             preparedStatement.setString(3, job.getCompany());
             preparedStatement.setString(4, job.getEducationLevel());
             preparedStatement.executeUpdate();
+            AuditService.writeAuditLog("inserted job " + job + " in table " + tableName);
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -133,6 +142,7 @@ public class DbFunctions {
             preparedStatement.setDouble(3, education.getDuration());
             preparedStatement.setDouble(4, education.getType());
             preparedStatement.executeUpdate();
+            AuditService.writeAuditLog("inserted education " + education + " in table " + tableName);
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -161,6 +171,7 @@ public class DbFunctions {
 
             resultSet.close();
             statement.close();
+            AuditService.writeAuditLog("selected all from table " + tableName);
             return cars;
         } catch (Exception e) {
             System.out.println(e);
@@ -199,6 +210,7 @@ public class DbFunctions {
 
             resultSet.close();
             statement.close();
+            AuditService.writeAuditLog("selected all from table " + tableName);
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -227,6 +239,7 @@ public class DbFunctions {
 
             resultSet.close();
             statement.close();
+            AuditService.writeAuditLog("selected all from table " + tableName);
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -255,6 +268,7 @@ public class DbFunctions {
 
             resultSet.close();
             statement.close();
+            AuditService.writeAuditLog("selected all from table " + tableName);
         } catch (Exception e) {
             System.out.println(e);
         }
@@ -267,6 +281,7 @@ public class DbFunctions {
             statement = conn.createStatement();
             statement.executeUpdate(query);
             System.out.println("Data Updated");
+            AuditService.writeAuditLog("updated table " + table_name + " name from " + old_name + " to " + new_name);
         }catch (Exception e){
             System.out.println(e);
         }
@@ -279,6 +294,7 @@ public class DbFunctions {
             statement = conn.createStatement();
             statement.executeUpdate(query);
             System.out.println("Table Deleted");
+            AuditService.writeAuditLog("deleted table " + table_name);
         }catch (Exception e){
             System.out.println(e);
         }
@@ -291,6 +307,7 @@ public class DbFunctions {
             statement.executeUpdate(query);
             System.out.println("All data deleted from table " + tableName);
             statement.close();
+            AuditService.writeAuditLog("deleted all from table " + tableName);
         } catch (Exception e) {
             System.out.println(e);
         }

@@ -1,6 +1,7 @@
 package com.example.uninhibited.controllers;
 
 import com.example.uninhibited.core.Player;
+import com.example.uninhibited.core.SceneUtil;
 import com.example.uninhibited.core.Stats;
 import javafx.beans.binding.Bindings;
 import javafx.beans.property.DoubleProperty;
@@ -15,11 +16,12 @@ import javafx.scene.paint.CycleMethod;
 import javafx.scene.paint.LinearGradient;
 import javafx.scene.paint.Stop;
 import javafx.scene.shape.Rectangle;
+import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.util.Random;
 
-public class MainController extends GenericController {
+public class MainController{
     @FXML
     private Button carsButton;
     @FXML
@@ -40,9 +42,6 @@ public class MainController extends GenericController {
     private Label playerMoney;
     @FXML
     private StackPane healthBarPane;
-
-    @FXML
-    private Rectangle healthBarBackground;
 
     @FXML
     private Rectangle healthBarForeground;
@@ -73,6 +72,11 @@ public class MainController extends GenericController {
 
     @FXML
     private Rectangle looksBarForeground;
+    private Stage primaryStage;
+
+    public void setPrimaryStage(Stage primaryStage) {
+        this.primaryStage = primaryStage;
+    }
 
     public void initialize() {
         playerNameAge.setText(Player.getInstance().getName() + ", " + Player.getInstance().getAge() + " yo");
@@ -99,10 +103,15 @@ public class MainController extends GenericController {
 
     @FXML
     public void onCarsButtonClick() throws IOException {
-        // TODO: Go to the cars screen
-        Parent homeRoot = FXMLLoader.load(getClass().getResource("/com/example/uninhibited/cars_menu.fxml"));
-        mainScene.setRoot(homeRoot);
-        CarMenuController.setMainScene(mainScene);
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/uninhibited/cars_menu.fxml"));
+            Parent homeRoot = loader.load();
+            SceneUtil.getMainScene().setRoot(homeRoot);
+            CarMenuController carMenuController = loader.getController();
+            carMenuController.setPrimaryStage(primaryStage);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @FXML
@@ -127,7 +136,7 @@ public class MainController extends GenericController {
 
     @FXML
     public void onAgeUpButtonClick() {
-//        player.ageUp();
-        // TODO: Update UI to reflect the player's new age
+        Player.getInstance().advanceAge();
+        System.out.println(Player.getInstance().getAge());
     }
 }

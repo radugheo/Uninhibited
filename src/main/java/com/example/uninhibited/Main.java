@@ -1,7 +1,7 @@
 package com.example.uninhibited;
 
 import com.example.uninhibited.controllers.IntroController;
-import com.example.uninhibited.core.DbFunctions;
+import com.example.uninhibited.core.SceneUtil;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -9,17 +9,17 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Main extends Application {
+    Scene mainScene;
     @Override
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/uninhibited/intro.fxml"));
         Parent root = loader.load();
 
-        DbFunctions.populateDatabase();
-        Scene scene = new Scene(root, 800, 600);
-        IntroController.setMainScene(scene);
-
+        SceneUtil.setMainScene(new Scene(root, 800, 600));
         primaryStage.setTitle("Uninhibited");
-        primaryStage.setScene(scene);
+        primaryStage.setScene(SceneUtil.getMainScene());
+        IntroController introController = loader.getController();
+        introController.setPrimaryStage(primaryStage);
         primaryStage.show();
     }
 

@@ -24,4 +24,17 @@ public class House extends Property{
         return monthlyIncome;
     }
 
+    @Override
+    public String toString() {
+        return "House{" +
+                "size=" + size +
+                ", rooms=" + rooms +
+                ", monthlyIncome=" + monthlyIncome +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", age=" + age +
+                ", health=" + health +
+                ", monthlyCost=" + monthlyCost +
+                '}';
+    }
 }
