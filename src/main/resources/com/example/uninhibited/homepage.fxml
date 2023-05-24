@@ -48,7 +48,7 @@
     </top>
 
     <center>
-        <Label fx:id="centerLabel" text="Welcome to the game!" styleClass="center-label"/>
+        <ListView fx:id="eventListView" />
     </center>
 
     <bottom>
@@ -60,8 +60,9 @@
                 <Button fx:id="educationButton" text="Education" onAction="#onEducationButtonClick"/>
                 <Button fx:id="jobsButton" text="Jobs" onAction="#onJobsButtonClick"/>
                 <Button fx:id="carsButton" text="Cars" onAction="#onCarsButtonClick"/>
+                <Button fx:id="ageUpButton" text="+" onAction="#onAgeUpButtonClick"/>
                 <Button fx:id="housesButton" text="Houses" onAction="#onHousesButtonClick"/>
-                <Button fx:id="ageUpButton" text="Age Up" onAction="#onAgeUpButtonClick"/>
+                <Button fx:id="animalsButton" text="Animals" onAction="#onAnimalsButtonClick"/>
                 <Button fx:id="profileButton" text="Profile" onAction="#onProfileButtonClick"/>
             </HBox>
         </VBox>

@@ -9,12 +9,10 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Main extends Application {
-    Scene mainScene;
     @Override
     public void start(Stage primaryStage) throws Exception {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/uninhibited/intro.fxml"));
         Parent root = loader.load();
-
         SceneUtil.setMainScene(new Scene(root, 800, 600));
         primaryStage.setTitle("Uninhibited");
         primaryStage.setScene(SceneUtil.getMainScene());
@@ -22,7 +20,6 @@ public class Main extends Application {
         introController.setPrimaryStage(primaryStage);
         primaryStage.show();
     }
-
     public static void main(String[] args) {
         launch(args);
     }

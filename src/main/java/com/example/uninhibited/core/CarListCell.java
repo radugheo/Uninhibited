@@ -1,12 +1,11 @@
 package com.example.uninhibited.core;
 
-import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.ListCell;
+import javafx.scene.control.*;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.Priority;
+
+import java.util.Optional;
 
 public class CarListCell extends ListCell<Car> {
     HBox hbox = new HBox();
@@ -44,7 +43,15 @@ public class CarListCell extends ListCell<Car> {
         alert.showAndWait();
     }
     private void sellCar(Car car) {
-        Player.getInstance().sellCar(car);
-        getListView().getItems().remove(car);
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setTitle(car.getName());
+        alert.setHeaderText(car.getName());
+        alert.setContentText("Do you want to sell this car for " + GameState.getInstance().formatMoney(car.getPrice()) + "€?");
+
+        Optional<ButtonType> result = alert.showAndWait();
+        if (result.isPresent() && result.get() == ButtonType.OK) {
+            Player.getInstance().sellCar(car);
+            getListView().getItems().remove(car);
+        }
     }
 }

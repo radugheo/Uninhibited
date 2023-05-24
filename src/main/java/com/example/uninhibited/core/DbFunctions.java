@@ -179,40 +179,34 @@ public class DbFunctions {
         }
     }
 
-    public static void selectHouses(String tableName) {
+    public static ArrayList<House> selectHouses(String tableName) {
         try {
             String query = "SELECT * FROM " + tableName;
             Statement statement = conn.createStatement();
             ResultSet resultSet = statement.executeQuery(query);
-
+            ArrayList<House> houses = new ArrayList<>();
             while (resultSet.next()) {
                 int houseId = resultSet.getInt("house_id");
                 String name = resultSet.getString("name");
-                double price = resultSet.getDouble("price");
-                double age = resultSet.getDouble("age");
-                double health = resultSet.getDouble("health");
-                double monthlyCost = resultSet.getDouble("monthly_cost");
-                double size = resultSet.getDouble("size");
-                double rooms = resultSet.getDouble("rooms");
-                double monthlyIncome = resultSet.getDouble("monthly_income");
+                int price = resultSet.getInt("price");
+                int age = resultSet.getInt("age");
+                int health = resultSet.getInt("health");
+                int monthlyCost = resultSet.getInt("monthly_cost");
+                int size = resultSet.getInt("size");
+                int rooms = resultSet.getInt("rooms");
+                int monthlyIncome = resultSet.getInt("monthly_income");
 
-                System.out.println("House ID: " + houseId);
-                System.out.println("Name: " + name);
-                System.out.println("Price: " + price);
-                System.out.println("Age: " + age);
-                System.out.println("Health: " + health);
-                System.out.println("Monthly Cost: " + monthlyCost);
-                System.out.println("Size: " + size);
-                System.out.println("Rooms: " + rooms);
-                System.out.println("Monthly Income: " + monthlyIncome);
-                System.out.println("-------------------------");
+                House house = new House(name, price, age, health, monthlyCost, size, rooms, monthlyIncome);
+                houses.add(house);
             }
 
             resultSet.close();
             statement.close();
             AuditService.writeAuditLog("selected all from table " + tableName);
+            return houses;
         } catch (Exception e) {
             System.out.println(e);
+            return null;
         }
     }
 

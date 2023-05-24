@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import java.net.URL?>
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.uninhibited.controllers.HouseMenuController"
+      style="-fx-padding: 10; -fx-font-size: 14pt;">
+    <Label text="Choose a category:" />
+    <RadioButton fx:id="allHousesButton" text="All Houses" onAction="#handleRadioButtonSelection"/>
+    <RadioButton fx:id="yourHousesButton" text="Your Houses" onAction="#handleRadioButtonSelection"/>
+    <Button text="Back" onAction="#onBackButtonClick" />
+    <stylesheets>
+        <URL value="@styles/houses.css" />
+    </stylesheets>
+
+</VBox>

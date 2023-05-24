@@ -4,6 +4,7 @@ public class House extends Property{
     private int size;
     private int rooms;
     private int monthlyIncome;
+    private int isRented;
     public House(String name_, int price_, int age_, int health_, int monthlyCost_, int size_, int rooms_, int monthlyIncome_){
         super(name_, price_, age_, health_, monthlyCost_);
         this.size = size_;
@@ -23,18 +24,14 @@ public class House extends Property{
     public int getMonthlyIncome() {
         return monthlyIncome;
     }
-
+    public int getIsRented() {
+        return isRented;
+    }
+    public void setIsRented(int isRented) {
+        this.isRented = isRented;
+    }
     @Override
     public String toString() {
-        return "House{" +
-                "size=" + size +
-                ", rooms=" + rooms +
-                ", monthlyIncome=" + monthlyIncome +
-                ", name='" + name + '\'' +
-                ", price=" + price +
-                ", age=" + age +
-                ", health=" + health +
-                ", monthlyCost=" + monthlyCost +
-                '}';
+        return name + ", " + GameState.getInstance().formatMoney(price) + "€, " + age + "yo, " + health + "hp, cost: " + GameState.getInstance().formatMoney(monthlyCost) + "€/month, " + size + "mp, " + rooms + " rooms, income: " + GameState.getInstance().formatMoney(monthlyIncome) + "€/month";
     }
 }

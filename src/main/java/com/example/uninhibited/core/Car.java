@@ -27,24 +27,8 @@ public class Car extends Property implements Comparable<Car>{
     public int getSpeed() {
         return speed;
     }
-
-    public String formatPriceAsMoneyWithComma(){
-        String priceAsString = Integer.toString(this.price);
-        String priceWithComma = "";
-        int counter = 0;
-        for(int i = priceAsString.length() - 1; i >= 0; i--){
-            if(counter == 3){
-                priceWithComma = priceAsString.charAt(i) + "," + priceWithComma;
-                counter = 0;
-            }else{
-                priceWithComma = priceAsString.charAt(i) + priceWithComma;
-            }
-            counter++;
-        }
-        return priceWithComma;
-    }
     @Override
     public String toString() {
-        return color + " " + name + ", " + formatPriceAsMoneyWithComma() + "€, " + age + "yo, " + health + "hp, " + monthlyCost + "€/mo, " + power + "kw, " + speed + "km/h";
+        return color + " " + name + ", " + GameState.getInstance().formatMoney(price) + "€, " + age + "yo, " + health + "hp, " + GameState.getInstance().formatMoney(monthlyCost) + "€/mo, " + power + "kw, " + speed + "km/h";
     }
 }

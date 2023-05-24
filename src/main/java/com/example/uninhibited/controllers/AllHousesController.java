@@ -1,7 +1,7 @@
 package com.example.uninhibited.controllers;
 
-import com.example.uninhibited.core.Car;
 import com.example.uninhibited.core.GameState;
+import com.example.uninhibited.core.House;
 import com.example.uninhibited.core.Player;
 import com.example.uninhibited.core.SceneUtil;
 import javafx.event.ActionEvent;
@@ -17,11 +17,10 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Optional;
 
-public class AllCarsController{
+public class AllHousesController{
     @FXML
-    private ListView<Car> listView;
+    private ListView<House> listView;
     private Stage primaryStage;
-
     public void setPrimaryStage(Stage primaryStage) {
         this.primaryStage = primaryStage;
     }
@@ -29,13 +28,13 @@ public class AllCarsController{
     public void initialize() {
         listView.setOnMouseClicked(event -> {
             if (event.getClickCount() == 2) {
-                Car currentItemSelected = listView.getSelectionModel().getSelectedItem();
+                House currentItemSelected = listView.getSelectionModel().getSelectedItem();
                 if(currentItemSelected != null) {
                     if (Player.getInstance().getMoney() < currentItemSelected.getPrice()) {
                         Alert alert = new Alert(Alert.AlertType.INFORMATION);
                         alert.setTitle(currentItemSelected.getName());
                         alert.setHeaderText(currentItemSelected.getName());
-                        alert.setContentText("You don't have enough money to buy this car!");
+                        alert.setContentText("You don't have enough money to buy this house!");
                         alert.showAndWait();
                         GameState.getInstance().getEventList().add("I wanted to buy a " + currentItemSelected.getName() + " but I didn't have enough money.");
                         return;
@@ -43,11 +42,11 @@ public class AllCarsController{
                         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
                         alert.setTitle(currentItemSelected.getName());
                         alert.setHeaderText(currentItemSelected.getName());
-                        alert.setContentText("Do you want to buy this car for " + GameState.getInstance().formatMoney(currentItemSelected.getPrice()) + "€?");
+                        alert.setContentText("Do you want to buy this house for " + GameState.getInstance().formatMoney(currentItemSelected.getPrice()) + "€?");
 
                         Optional<ButtonType> result = alert.showAndWait();
                         if (result.isPresent() && result.get() == ButtonType.OK) {
-                            Player.getInstance().buyCar(currentItemSelected);
+                            Player.getInstance().buyHouse(currentItemSelected);
                             listView.getItems().remove(currentItemSelected);
                             GameState.getInstance().getEventList().add("I bought a " + currentItemSelected.getName() + " for " + GameState.getInstance().formatMoney(currentItemSelected.getPrice()) + "€.");
                         }
@@ -67,8 +66,8 @@ public class AllCarsController{
         });
     }
 
-    public void setCars(ArrayList<Car> cars) {
-        this.listView.getItems().addAll(cars);
+    public void setHouses(ArrayList<House> houses) {
+        this.listView.getItems().addAll(houses);
     }
 
     @FXML

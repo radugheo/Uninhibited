@@ -6,7 +6,7 @@
 <?import java.net.URL?>
 <BorderPane prefWidth="360" prefHeight="640" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.uninhibited.controllers.IntroController">
     <center>
-        <VBox spacing="20" alignment="CENTER">
+        <VBox spacing="20" alignment="CENTER" fillWidth="false">
             <StackPane>
                 <Text text="Uninhibited" styleClass="logo-text" />
             </StackPane>

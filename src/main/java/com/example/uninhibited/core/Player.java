@@ -18,16 +18,10 @@ public class Player {
     private ArrayList<Animal> animals;
     private ArrayList<Car> cars;
     private ArrayList<House> houses;
-
     private DoubleProperty healthProperty;
     private DoubleProperty happinessProperty;
     private DoubleProperty smartsProperty;
     private DoubleProperty looksProperty;
-    private final IntegerProperty ageProperty = new SimpleIntegerProperty();
-    private final StringProperty nameProperty = new SimpleStringProperty();
-    private final StringProperty nationalityProperty = new SimpleStringProperty();
-    private final IntegerProperty moneyProperty = new SimpleIntegerProperty();
-
     private Player(String name_, String gender_, String nationality_, Stats stats_) {
         this.name = name_;
         this.gender = gender_;
@@ -44,44 +38,14 @@ public class Player {
     public DoubleProperty healthProperty() {
         return healthProperty;
     }
-
     public DoubleProperty happinessProperty() {
         return happinessProperty;
     }
-
     public DoubleProperty smartsProperty() {
         return smartsProperty;
     }
-
     public DoubleProperty looksProperty() {
         return looksProperty;
-    }
-    public void setAgeProperty(int age_) {
-        this.ageProperty.set(age_);
-    }
-    public void setNameProperty(String name_) {
-        this.nameProperty.set(name_);
-    }
-    public void setNationalityProperty(String nationality_){
-        this.nationalityProperty.set(nationality_);
-    }
-    public void setMoneyProperty(int money_) {
-        this.moneyProperty.set(money_);
-    }
-    public IntegerProperty ageProperty() {
-        return ageProperty;
-    }
-
-    public StringProperty nameProperty() {
-        return nameProperty;
-    }
-
-    public StringProperty nationalityProperty() {
-        return nationalityProperty;
-    }
-
-    public IntegerProperty moneyProperty() {
-        return moneyProperty;
     }
     public String getName() {
         return this.name;
@@ -154,12 +118,20 @@ public class Player {
         this.cars.remove(car_);
         this.money += car_.getPrice();
     }
+    public void buyHouse(House house_) {
+        this.houses.add(house_);
+        this.money -= house_.getPrice();
+    }
+    public void sellHouse(House house_) {
+        this.houses.remove(house_);
+        this.money += house_.getPrice();
+    }
     public void modifyStats(){
         Random random = new Random();
-        int randomHealthModifier = random.nextInt(11) - 5;
-        int randomHappinessModifier = random.nextInt(11) - 5;
-        int randomIntelligenceModifier = random.nextInt(11) - 5;
-        int randomLooksModifier = random.nextInt(11) - 5;
+        int randomHealthModifier = random.nextInt(5) - 2;
+        int randomHappinessModifier = random.nextInt(5) - 2;
+        int randomIntelligenceModifier = random.nextInt(5) - 2;
+        int randomLooksModifier = random.nextInt(5) - 2;
 
         this.stats.setHealth(this.stats.getHealth() + randomHealthModifier);
         this.stats.setHappiness(this.stats.getHappiness() + randomHappinessModifier);
@@ -190,22 +162,32 @@ public class Player {
         if (this.stats.getLooks() < 0){
             this.stats.setLooks(0);
         }
+        this.healthProperty.set(this.stats.getHealth() + randomHealthModifier);
+        this.happinessProperty.set(this.stats.getHappiness() + randomHappinessModifier);
+        this.smartsProperty.set(this.stats.getIntelligence() + randomIntelligenceModifier);
+        this.looksProperty.set(this.stats.getLooks() + randomLooksModifier);
     }
     public void advanceAge(){
-        this.age++;
+        setAge(getAge() + 1);
         for (Car car : this.cars){
             car.setAge(car.getAge() + 1);
+            money -= (car.getMonthlyCost() * 12);
         }
         for (House house : this.houses){
             house.setAge(house.getAge() + 1);
+            money -= (house.getMonthlyCost() * 12);
+            if (house.getIsRented() == 1){
+                money += (house.getMonthlyIncome() * 12);
+            }
+        }
+        if (age > 18){
+            money -= ((100 - this.stats.getHealth()) * 12);
         }
         modifyStats();
     }
     public static Player getInstance(String name_, String gender_, String nationality_, Stats stats_) {
         if(instance == null) {
             instance = new Player(name_, gender_, nationality_, stats_);
-            Player.getInstance().setNameProperty(name_);
-            Player.getInstance().setNationalityProperty(nationality_);
         }
         return instance;
     }
