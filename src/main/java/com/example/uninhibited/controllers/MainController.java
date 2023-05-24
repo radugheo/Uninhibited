@@ -115,7 +115,6 @@ public class MainController{
     @FXML
     public void onAgeUpButtonClick() {
         Player.getInstance().advanceAge();
-        GameState.getInstance().getEventList().add("I am now " + Player.getInstance().getAge() + " years old.");
         displayText();
     }
     @FXML

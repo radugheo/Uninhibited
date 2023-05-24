@@ -1,8 +1,11 @@
 package com.example.uninhibited.core;
 
 import javafx.beans.property.*;
+import javafx.scene.control.Alert;
+import javafx.scene.control.ButtonType;
 
 import java.util.ArrayList;
+import java.util.Optional;
 import java.util.Random;
 
 public class Player {
@@ -22,6 +25,7 @@ public class Player {
     private DoubleProperty happinessProperty;
     private DoubleProperty smartsProperty;
     private DoubleProperty looksProperty;
+    private final StringProperty educationStatus = new SimpleStringProperty();
     private Player(String name_, String gender_, String nationality_, Stats stats_) {
         this.name = name_;
         this.gender = gender_;
@@ -46,6 +50,15 @@ public class Player {
     }
     public DoubleProperty looksProperty() {
         return looksProperty;
+    }
+    public StringProperty educationStatusProperty() {
+        return educationStatus;
+    }
+    public String getEducationStatus() {
+        return educationStatus.get();
+    }
+    public void setEducationStatus(String status) {
+        this.educationStatus.set(status);
     }
     public String getName() {
         return this.name;
@@ -184,6 +197,32 @@ public class Player {
             money -= ((100 - this.stats.getHealth()) * 12);
         }
         modifyStats();
+        GameState.getInstance().getEventList().add("I am now " + getInstance().getAge() + " years old.");
+        int currentAge = getInstance().getAge();
+        if (currentAge == 7) {
+            getInstance().setEducationStatus("In School");
+            GameState.getInstance().getEventList().add("I started primary school.");
+        } else if (currentAge == 11){
+            getInstance().setEducationStatus("In School");
+            GameState.getInstance().getEventList().add("I started secondary school.");
+        }
+        else if (currentAge == 15) {
+            getInstance().setEducationStatus("Finished School");
+            GameState.getInstance().getEventList().add("I finished secondary school.");
+            Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+            alert.setTitle("Continue Education");
+            alert.setHeaderText("Do you want to continue with further high school education?");
+            alert.setContentText("Choosing to continue your education may impact your future career and financial options.");
+
+            Optional<ButtonType> result = alert.showAndWait();
+            if (result.isPresent() && result.get() == ButtonType.OK){
+                Player.getInstance().setEducationStatus("In High School");
+                GameState.getInstance().getEventList().add("You started high school.");
+            } else {
+                Player.getInstance().setEducationStatus("Finished Education");
+                GameState.getInstance().getEventList().add("You decided not to continue education.");
+            }
+        }
     }
     public static Player getInstance(String name_, String gender_, String nationality_, Stats stats_) {
         if(instance == null) {

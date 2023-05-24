@@ -17929,3 +17929,787 @@ inserted education Education{name='Culinary Degree', cost=10987, duration=3, typ
 inserted education Education{name='Master's Degree', cost=12680, duration=1, type=5} in table education,2023-05-24T12:35:02.729112700
 inserted education Education{name='High School Diploma', cost=11155, duration=2, type=0} in table education,2023-05-24T12:35:02.729448200
 inserted education Education{name='Master's Degree', cost=11402, duration=2, type=5} in table education,2023-05-24T12:35:02.729777800
+connected to the database,2023-05-24T12:47:21.436574400
+inserted car Red Rolls-Royce Phantom, 450,000€, 2yo, 59hp, 937€/mo, 563kw, 240km/h in table cars,2023-05-24T12:47:21.477781700
+inserted car White Land Rover Range Rover, 90,000€, 1yo, 56hp, 457€/mo, 400kw, 220km/h in table cars,2023-05-24T12:47:21.478782400
+inserted car Red Rolls-Royce Phantom, 450,000€, 4yo, 92hp, 499€/mo, 563kw, 240km/h in table cars,2023-05-24T12:47:21.479781600
+inserted car Gray Chevrolet Camaro, 35,000€, 2yo, 89hp, 689€/mo, 335kw, 180km/h in table cars,2023-05-24T12:47:21.479781600
+inserted car Gray Toyota Camry, 25,000€, 5yo, 61hp, 922€/mo, 110kw, 170km/h in table cars,2023-05-24T12:47:21.480782600
+inserted car Purple BMW 3 Series, 40,000€, 5yo, 50hp, 833€/mo, 150kw, 190km/h in table cars,2023-05-24T12:47:21.481782300
+inserted car Red McLaren P1, 1,300,000€, 5yo, 77hp, 969€/mo, 903kw, 350km/h in table cars,2023-05-24T12:47:21.481782300
+inserted car Orange Volkswagen Golf, 18,000€, 3yo, 92hp, 646€/mo, 90kw, 180km/h in table cars,2023-05-24T12:47:21.482781900
+inserted car Green Honda Civic, 22,000€, 5yo, 84hp, 378€/mo, 115kw, 190km/h in table cars,2023-05-24T12:47:21.482781900
+inserted car Red Kia Sportage, 25,000€, 1yo, 55hp, 252€/mo, 170kw, 180km/h in table cars,2023-05-24T12:47:21.483783300
+inserted car Black Chevrolet Camaro, 35,000€, 1yo, 85hp, 900€/mo, 335kw, 180km/h in table cars,2023-05-24T12:47:21.483783300
+inserted car Orange McLaren P1, 1,300,000€, 4yo, 84hp, 340€/mo, 903kw, 350km/h in table cars,2023-05-24T12:47:21.484783300
+inserted car Green Subaru WRX STI, 35,000€, 2yo, 62hp, 660€/mo, 310kw, 195km/h in table cars,2023-05-24T12:47:21.484783300
+inserted car Purple Chevrolet Corvette, 70,000€, 3yo, 51hp, 807€/mo, 300kw, 350km/h in table cars,2023-05-24T12:47:21.485783900
+inserted car Blue Ford Focus, 18,000€, 4yo, 60hp, 319€/mo, 160kw, 180km/h in table cars,2023-05-24T12:47:21.486783700
+inserted car Orange Acura NSX, 160,000€, 0yo, 100hp, 274€/mo, 573kw, 307km/h in table cars,2023-05-24T12:47:21.486783700
+inserted car Yellow Mercedes-Benz C-Class, 45,000€, 5yo, 61hp, 399€/mo, 140kw, 190km/h in table cars,2023-05-24T12:47:21.487784600
+inserted car Red Hyundai Sonata, 22,000€, 4yo, 65hp, 700€/mo, 180kw, 170km/h in table cars,2023-05-24T12:47:21.487784600
+inserted car Purple Audi A4, 42,000€, 2yo, 72hp, 387€/mo, 130kw, 190km/h in table cars,2023-05-24T12:47:21.488782900
+inserted car Blue Lamborghini Huracan, 250,000€, 2yo, 85hp, 377€/mo, 600kw, 350km/h in table cars,2023-05-24T12:47:21.489784300
+inserted car Orange Lexus RX, 45,000€, 2yo, 78hp, 234€/mo, 290kw, 190km/h in table cars,2023-05-24T12:47:21.489784300
+inserted car Purple Chevrolet Corvette, 70,000€, 3yo, 53hp, 382€/mo, 300kw, 350km/h in table cars,2023-05-24T12:47:21.490784300
+inserted car Red Bugatti Veyron, 1,500,000€, 1yo, 90hp, 737€/mo, 1000kw, 407km/h in table cars,2023-05-24T12:47:21.490784300
+inserted car Green Renault Megane, 23,000€, 4yo, 71hp, 506€/mo, 130kw, 180km/h in table cars,2023-05-24T12:47:21.491783900
+inserted car Purple Ford Mustang, 50,000€, 4yo, 99hp, 701€/mo, 250kw, 300km/h in table cars,2023-05-24T12:47:21.491783900
+inserted car Yellow Ford Mustang, 50,000€, 2yo, 51hp, 828€/mo, 250kw, 300km/h in table cars,2023-05-24T12:47:21.492785300
+inserted car Green Chevrolet Corvette, 70,000€, 0yo, 100hp, 876€/mo, 300kw, 350km/h in table cars,2023-05-24T12:47:21.492785300
+inserted car Gray Bentley Continental GT, 250,000€, 2yo, 54hp, 964€/mo, 635kw, 320km/h in table cars,2023-05-24T12:47:21.493785600
+inserted car Green Toyota Camry, 25,000€, 2yo, 57hp, 839€/mo, 110kw, 170km/h in table cars,2023-05-24T12:47:21.494785700
+inserted car Black Aston Martin DB11, 200,000€, 4yo, 69hp, 329€/mo, 600kw, 320km/h in table cars,2023-05-24T12:47:21.494785700
+inserted car Red Land Rover Range Rover, 90,000€, 0yo, 100hp, 353€/mo, 400kw, 220km/h in table cars,2023-05-24T12:47:21.495785400
+inserted car Gray Toyota Camry, 25,000€, 1yo, 57hp, 817€/mo, 110kw, 170km/h in table cars,2023-05-24T12:47:21.495785400
+inserted car Yellow Honda Civic, 22,000€, 5yo, 85hp, 969€/mo, 115kw, 190km/h in table cars,2023-05-24T12:47:21.496786800
+inserted car Blue Audi A4, 42,000€, 1yo, 52hp, 899€/mo, 130kw, 190km/h in table cars,2023-05-24T12:47:21.496786800
+inserted car Silver Tesla Model S, 80,000€, 0yo, 100hp, 736€/mo, 300kw, 300km/h in table cars,2023-05-24T12:47:21.497786900
+inserted car Purple Ferrari 488 GTB, 300,000€, 4yo, 69hp, 967€/mo, 660kw, 330km/h in table cars,2023-05-24T12:47:21.498786900
+inserted car Gray Chevrolet Camaro, 35,000€, 0yo, 100hp, 346€/mo, 335kw, 180km/h in table cars,2023-05-24T12:47:21.498786900
+inserted car Black Toyota Camry, 25,000€, 4yo, 55hp, 891€/mo, 110kw, 170km/h in table cars,2023-05-24T12:47:21.499697100
+inserted car Orange Ford Focus, 18,000€, 5yo, 69hp, 988€/mo, 160kw, 180km/h in table cars,2023-05-24T12:47:21.499697100
+inserted car Green Jaguar F-Type, 60,000€, 5yo, 85hp, 287€/mo, 340kw, 300km/h in table cars,2023-05-24T12:47:21.500699
+inserted car Green Mercedes-Benz C-Class, 45,000€, 0yo, 100hp, 780€/mo, 140kw, 190km/h in table cars,2023-05-24T12:47:21.500699
+inserted car Purple Renault Megane, 23,000€, 2yo, 94hp, 555€/mo, 130kw, 180km/h in table cars,2023-05-24T12:47:21.501699500
+inserted car Orange Aston Martin DB11, 200,000€, 4yo, 74hp, 311€/mo, 600kw, 320km/h in table cars,2023-05-24T12:47:21.501699500
+inserted car Silver Aston Martin DB11, 200,000€, 2yo, 56hp, 262€/mo, 600kw, 320km/h in table cars,2023-05-24T12:47:21.502699400
+inserted car Yellow Ford Mustang, 50,000€, 0yo, 100hp, 416€/mo, 250kw, 300km/h in table cars,2023-05-24T12:47:21.503699200
+inserted car Yellow McLaren P1, 1,300,000€, 4yo, 63hp, 537€/mo, 903kw, 350km/h in table cars,2023-05-24T12:47:21.503699200
+inserted car Silver Ferrari 488 GTB, 300,000€, 0yo, 100hp, 672€/mo, 660kw, 330km/h in table cars,2023-05-24T12:47:21.504699200
+inserted car Blue Bugatti Veyron, 1,500,000€, 3yo, 52hp, 211€/mo, 1000kw, 407km/h in table cars,2023-05-24T12:47:21.504699200
+inserted car Red Toyota Camry, 25,000€, 2yo, 94hp, 838€/mo, 110kw, 170km/h in table cars,2023-05-24T12:47:21.505700
+inserted car Gray Jaguar F-Type, 60,000€, 4yo, 59hp, 946€/mo, 340kw, 300km/h in table cars,2023-05-24T12:47:21.505700
+inserted house Luxury Villa, 1,000,340€, 6yo, 94hp, cost: 1,303€/month, 3709mp, 8 rooms, income: 12,371€/month in table houses,2023-05-24T12:47:21.512701900
+inserted house Cozy Cottage, 150,500€, 5yo, 100hp, cost: 176€/month, 1502mp, 1 rooms, income: 1,134€/month in table houses,2023-05-24T12:47:21.513702200
+inserted house Cozy Cottage, 149,200€, 18yo, 100hp, cost: 275€/month, 1643mp, 2 rooms, income: 1,002€/month in table houses,2023-05-24T12:47:21.514874400
+inserted house Country Farmhouse, 399,000€, 20yo, 100hp, cost: 311€/month, 12822mp, 1 rooms, income: 1,303€/month in table houses,2023-05-24T12:47:21.514874400
+inserted house Modern Apartment, 199,710€, 12yo, 91hp, cost: 399€/month, 693mp, 3 rooms, income: 1,606€/month in table houses,2023-05-24T12:47:21.515876100
+inserted house Cozy Cottage, 149,810€, 11yo, 91hp, cost: 175€/month, 1571mp, 1 rooms, income: 1,025€/month in table houses,2023-05-24T12:47:21.515876100
+inserted house Cozy Cottage, 149,500€, 14yo, 90hp, cost: 174€/month, 787mp, 1 rooms, income: 1,349€/month in table houses,2023-05-24T12:47:21.516876900
+inserted house Suburban Home, 299,460€, 14yo, 86hp, cost: 651€/month, 2020mp, 5 rooms, income: 3,234€/month in table houses,2023-05-24T12:47:21.516876900
+inserted house Modern Apartment, 199,340€, 15yo, 84hp, cost: 299€/month, 544mp, 2 rooms, income: 1,511€/month in table houses,2023-05-24T12:47:21.517876100
+inserted house Luxury Villa, 999,160€, 18yo, 96hp, cost: 1,303€/month, 4253mp, 8 rooms, income: 12,082€/month in table houses,2023-05-24T12:47:21.517876100
+inserted house Modern Apartment, 200,650€, 3yo, 95hp, cost: 100€/month, 792mp, 0 rooms, income: 1,867€/month in table houses,2023-05-24T12:47:21.518877300
+inserted house Cozy Cottage, 150,400€, 6yo, 100hp, cost: 375€/month, 945mp, 3 rooms, income: 961€/month in table houses,2023-05-24T12:47:21.518877300
+inserted house Country Farmhouse, 399,800€, 11yo, 90hp, cost: 311€/month, 12778mp, 1 rooms, income: 1,381€/month in table houses,2023-05-24T12:47:21.519876600
+inserted house Modern Apartment, 198,980€, 19yo, 88hp, cost: 399€/month, 890mp, 3 rooms, income: 1,493€/month in table houses,2023-05-24T12:47:21.520877300
+inserted house Country Farmhouse, 398,980€, 20yo, 98hp, cost: 411€/month, 12501mp, 2 rooms, income: 659€/month in table houses,2023-05-24T12:47:21.520877300
+inserted house Modern Apartment, 200,510€, 3yo, 81hp, cost: 1€/month, 1173mp, -1 rooms, income: 1,411€/month in table houses,2023-05-24T12:47:21.521877100
+inserted house Suburban Home, 299,070€, 17yo, 77hp, cost: 751€/month, 2058mp, 6 rooms, income: 2,806€/month in table houses,2023-05-24T12:47:21.521877100
+inserted house Cozy Cottage, 151,000€, 0yo, 100hp, cost: 376€/month, 1504mp, 3 rooms, income: 1,440€/month in table houses,2023-05-24T12:47:21.522877900
+inserted house Country Farmhouse, 399,140€, 18yo, 94hp, cost: 411€/month, 12133mp, 2 rooms, income: 721€/month in table houses,2023-05-24T12:47:21.522877900
+inserted house Cozy Cottage, 150,260€, 7yo, 96hp, cost: 476€/month, 1248mp, 4 rooms, income: 967€/month in table houses,2023-05-24T12:47:21.523877900
+inserted house Luxury Villa, 1,000,620€, 3yo, 92hp, cost: 1,304€/month, 4436mp, 8 rooms, income: 12,427€/month in table houses,2023-05-24T12:47:21.523877900
+inserted house Luxury Villa, 1,000,800€, 2yo, 100hp, cost: 1,203€/month, 3759mp, 7 rooms, income: 12,489€/month in table houses,2023-05-24T12:47:21.524877800
+inserted house Modern Apartment, 199,600€, 12yo, 80hp, cost: 399€/month, 466mp, 3 rooms, income: 1,854€/month in table houses,2023-05-24T12:47:21.524877800
+inserted house Luxury Villa, 1,000,500€, 5yo, 100hp, cost: 904€/month, 4230mp, 4 rooms, income: 12,166€/month in table houses,2023-05-24T12:47:21.525878200
+inserted house Cozy Cottage, 150,510€, 4yo, 91hp, cost: 376€/month, 1312mp, 3 rooms, income: 1,401€/month in table houses,2023-05-24T12:47:21.525878200
+inserted job Job{name='Mechanical Engineer', salary=84446, company='Cisco', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.531880
+inserted job Job{name='Nurse', salary=46152, company='Netflix', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.531880
+inserted job Job{name='Journalist', salary=23518, company='Facebook', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.532879500
+inserted job Job{name='Operations Manager', salary=109647, company='Cisco', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.532879500
+inserted job Job{name='Web Developer', salary=42171, company='Apple', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.533879800
+inserted job Job{name='Human Resources Manager', salary=39200, company='J.P. Morgan', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.533879800
+inserted job Job{name='Architect', salary=50974, company='Ford', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.534879300
+inserted job Job{name='Human Resources Manager', salary=48967, company='Ford', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.534879300
+inserted job Job{name='Graphic Designer', salary=71951, company='Google', educationLevel='Associate Degree'} in table jobs,2023-05-24T12:47:21.534879300
+inserted job Job{name='Marketing Coordinator', salary=45769, company='Amazon', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.535879600
+inserted job Job{name='Sales Representative', salary=63279, company='Siemens', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:47:21.536348200
+inserted job Job{name='Operations Manager', salary=110346, company='Ford', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.536348200
+inserted job Job{name='Operations Manager', salary=79334, company='Marriott International', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.536348200
+inserted job Job{name='Marketing Coordinator', salary=48238, company='Amazon', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.537348900
+inserted job Job{name='Marketing Manager', salary=41930, company='General Electric', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.537348900
+inserted job Job{name='Nurse', salary=82596, company='Marriott International', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.537348900
+inserted job Job{name='Data Analyst', salary=49432, company='Siemens', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.538349100
+inserted job Job{name='Chef', salary=24598, company='Walmart', educationLevel='Culinary Degree'} in table jobs,2023-05-24T12:47:21.538887
+inserted job Job{name='Mechanical Engineer', salary=35028, company='Oracle', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.539276600
+inserted job Job{name='Architect', salary=44254, company='Bloomberg', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.539660100
+inserted job Job{name='Chef', salary=34630, company='Walmart', educationLevel='Culinary Degree'} in table jobs,2023-05-24T12:47:21.539660100
+inserted job Job{name='Sales Representative', salary=41432, company='IBM', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:47:21.539660100
+inserted job Job{name='Research Scientist', salary=75308, company='IBM', educationLevel='PhD'} in table jobs,2023-05-24T12:47:21.540661700
+inserted job Job{name='Financial Analyst', salary=77400, company='Skidmore, Owings & Merrill', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.540661700
+inserted job Job{name='Marketing Coordinator', salary=27724, company='Cisco', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.541661800
+inserted job Job{name='Product Manager', salary=75692, company='Walmart', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.541661800
+inserted job Job{name='Research Scientist', salary=70474, company='Marriott International', educationLevel='PhD'} in table jobs,2023-05-24T12:47:21.541661800
+inserted job Job{name='Research Scientist', salary=69001, company='Facebook', educationLevel='PhD'} in table jobs,2023-05-24T12:47:21.542662400
+inserted job Job{name='Customer Service Representative', salary=23780, company='Tesla', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:47:21.542662400
+inserted job Job{name='Sales Representative', salary=45918, company='General Electric', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:47:21.543662200
+inserted job Job{name='Marketing Manager', salary=40687, company='Procter & Gamble', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.543662200
+inserted job Job{name='Human Resources Manager', salary=43949, company='Facebook', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.544661600
+inserted job Job{name='Project Manager', salary=55231, company='Apple', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.544661600
+inserted job Job{name='Architect', salary=43272, company='Kaiser Permanente', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.544661600
+inserted job Job{name='Operations Manager', salary=48872, company='J.P. Morgan', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.545661900
+inserted job Job{name='Architect', salary=53619, company='Intel', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.545661900
+inserted job Job{name='Nurse', salary=35651, company='Apple', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.545661900
+inserted job Job{name='Customer Service Representative', salary=43416, company='Baker McKenzie', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:47:21.546663
+inserted job Job{name='Operations Manager', salary=97438, company='Apple', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.546663
+inserted job Job{name='Product Manager', salary=104850, company='Ford', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.548663
+inserted job Job{name='Data Analyst', salary=62428, company='Boeing', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.548663
+inserted job Job{name='Journalist', salary=24763, company='Intel', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.548663
+inserted job Job{name='Data Scientist', salary=78279, company='Tesla', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.549663300
+inserted job Job{name='Social Media Manager', salary=79623, company='Baker McKenzie', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.549663300
+inserted job Job{name='Graphic Designer', salary=64040, company='Deloitte', educationLevel='Associate Degree'} in table jobs,2023-05-24T12:47:21.550663600
+inserted job Job{name='Marketing Manager', salary=99793, company='Tesla', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.550663600
+inserted job Job{name='Mechanical Engineer', salary=53906, company='Kaiser Permanente', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.551664
+inserted job Job{name='Sales Representative', salary=37710, company='Skidmore, Owings & Merrill', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:47:21.551664
+inserted job Job{name='Customer Service Representative', salary=22083, company='CNN', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:47:21.551664
+inserted job Job{name='Architect', salary=77386, company='Oracle', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.552664900
+inserted job Job{name='Mechanical Engineer', salary=55539, company='Boeing', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.552664900
+inserted job Job{name='Graphic Designer', salary=38765, company='Deloitte', educationLevel='Associate Degree'} in table jobs,2023-05-24T12:47:21.553664300
+inserted job Job{name='Sales Representative', salary=23116, company='Oracle', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:47:21.553998900
+inserted job Job{name='Sales Representative', salary=49713, company='J.P. Morgan', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:47:21.553998900
+inserted job Job{name='Healthcare Administrator', salary=44031, company='Google', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.553998900
+inserted job Job{name='Web Developer', salary=33971, company='Tesla', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.555000300
+inserted job Job{name='Data Scientist', salary=115379, company='Ford', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.555000300
+inserted job Job{name='Product Manager', salary=86405, company='Apple', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.555000300
+inserted job Job{name='Operations Manager', salary=48470, company='Pfizer', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.556000700
+inserted job Job{name='Mechanical Engineer', salary=57924, company='IBM', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.556000700
+inserted job Job{name='Social Media Manager', salary=54510, company='Intel', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.556000700
+inserted job Job{name='Customer Service Representative', salary=44306, company='Boeing', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:47:21.557255500
+inserted job Job{name='Human Resources Manager', salary=77996, company='Facebook', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.557255500
+inserted job Job{name='Marketing Manager', salary=42747, company='Walmart', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.557255500
+inserted job Job{name='Financial Analyst', salary=48852, company='Walmart', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.558256300
+inserted job Job{name='Social Media Manager', salary=43289, company='CNN', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.558256300
+inserted job Job{name='Nurse', salary=53784, company='Apple', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.559045400
+inserted job Job{name='Chef', salary=52634, company='Baker McKenzie', educationLevel='Culinary Degree'} in table jobs,2023-05-24T12:47:21.559394800
+inserted job Job{name='Graphic Designer', salary=72788, company='Deloitte', educationLevel='Associate Degree'} in table jobs,2023-05-24T12:47:21.559394800
+inserted job Job{name='Marketing Coordinator', salary=47566, company='CNN', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.559394800
+inserted job Job{name='Social Media Manager', salary=77000, company='Kaiser Permanente', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.560396
+inserted job Job{name='Architect', salary=103762, company='Facebook', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.560396
+inserted job Job{name='Operations Manager', salary=59818, company='Bloomberg', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.560396
+inserted job Job{name='Mechanical Engineer', salary=92736, company='Baker McKenzie', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.561397400
+inserted job Job{name='Financial Analyst', salary=46473, company='Facebook', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.561397400
+inserted job Job{name='Graphic Designer', salary=38150, company='Oracle', educationLevel='Associate Degree'} in table jobs,2023-05-24T12:47:21.561397400
+inserted job Job{name='Architect', salary=83385, company='Pfizer', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.562397100
+inserted job Job{name='Social Media Manager', salary=41228, company='Apple', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.562397100
+inserted job Job{name='Financial Analyst', salary=78216, company='Tesla', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.563396200
+inserted job Job{name='Mechanical Engineer', salary=91930, company='Walmart', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.563396200
+inserted job Job{name='Financial Analyst', salary=51965, company='Siemens', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.564396800
+inserted job Job{name='Nurse', salary=32711, company='Netflix', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.564396800
+inserted job Job{name='Data Analyst', salary=56539, company='Deloitte', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.564396800
+inserted job Job{name='Customer Service Representative', salary=50839, company='Ford', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:47:21.565397100
+inserted job Job{name='Journalist', salary=53515, company='Marriott International', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.565397100
+inserted job Job{name='Social Media Manager', salary=35986, company='Pfizer', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.565397100
+inserted job Job{name='Lawyer', salary=132296, company='Intel', educationLevel='Law Degree'} in table jobs,2023-05-24T12:47:21.566398300
+inserted job Job{name='Healthcare Administrator', salary=38414, company='Marriott International', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.566398300
+inserted job Job{name='Mechanical Engineer', salary=41691, company='Microsoft', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.567398900
+inserted job Job{name='Operations Manager', salary=116136, company='Apple', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.567398900
+inserted job Job{name='Human Resources Manager', salary=41047, company='Oracle', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.567398900
+inserted job Job{name='Customer Service Representative', salary=35012, company='J.P. Morgan', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:47:21.568398400
+inserted job Job{name='Web Developer', salary=60644, company='Siemens', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.568398400
+inserted job Job{name='Human Resources Manager', salary=106453, company='Boeing', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.568398400
+inserted job Job{name='Healthcare Administrator', salary=69337, company='Tesla', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:47:21.569398200
+inserted job Job{name='Mechanical Engineer', salary=104736, company='Kaiser Permanente', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.569398200
+inserted job Job{name='Accountant', salary=39919, company='Apple', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.570398400
+inserted job Job{name='Graphic Designer', salary=27239, company='Siemens', educationLevel='Associate Degree'} in table jobs,2023-05-24T12:47:21.570398400
+inserted job Job{name='Web Developer', salary=73079, company='Cisco', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.570398400
+inserted job Job{name='Web Developer', salary=33469, company='Oracle', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:47:21.571398600
+inserted education Education{name='Master's Degree', cost=10286, duration=2, type=5} in table education,2023-05-24T12:47:21.575596100
+inserted education Education{name='Culinary Degree', cost=6513, duration=1, type=2} in table education,2023-05-24T12:47:21.575596100
+inserted education Education{name='Master's Degree', cost=11955, duration=3, type=5} in table education,2023-05-24T12:47:21.576595600
+inserted education Education{name='Trade Certification', cost=12661, duration=3, type=1} in table education,2023-05-24T12:47:21.576595600
+inserted education Education{name='Associate Degree', cost=8069, duration=3, type=4} in table education,2023-05-24T12:47:21.577595700
+inserted education Education{name='Culinary Degree', cost=14614, duration=4, type=2} in table education,2023-05-24T12:47:21.577595700
+inserted education Education{name='Law Degree', cost=11108, duration=2, type=7} in table education,2023-05-24T12:47:21.578596400
+inserted education Education{name='Master's Degree', cost=5483, duration=3, type=5} in table education,2023-05-24T12:47:21.578596400
+inserted education Education{name='Trade Certification', cost=10771, duration=1, type=1} in table education,2023-05-24T12:47:21.579595800
+inserted education Education{name='Associate Degree', cost=6880, duration=3, type=4} in table education,2023-05-24T12:47:21.579595800
+inserted education Education{name='High School Diploma', cost=13041, duration=3, type=0} in table education,2023-05-24T12:47:21.579595800
+inserted education Education{name='Associate Degree', cost=11731, duration=3, type=4} in table education,2023-05-24T12:47:21.580596
+inserted education Education{name='Master's Degree', cost=14531, duration=2, type=5} in table education,2023-05-24T12:47:21.580596
+inserted education Education{name='Bachelor's Degree', cost=5067, duration=1, type=3} in table education,2023-05-24T12:47:21.581596900
+inserted education Education{name='Associate Degree', cost=9564, duration=4, type=4} in table education,2023-05-24T12:47:21.581596900
+inserted education Education{name='Master's Degree', cost=11464, duration=3, type=5} in table education,2023-05-24T12:47:21.581596900
+inserted education Education{name='Master's Degree', cost=7006, duration=4, type=5} in table education,2023-05-24T12:47:21.582619700
+inserted education Education{name='Culinary Degree', cost=12021, duration=4, type=2} in table education,2023-05-24T12:47:21.582970200
+inserted education Education{name='PhD', cost=6346, duration=4, type=6} in table education,2023-05-24T12:47:21.583328900
+inserted education Education{name='Trade Certification', cost=7210, duration=2, type=1} in table education,2023-05-24T12:47:21.583328900
+connected to the database,2023-05-24T12:49:25.135917500
+inserted car Black BMW 3 Series, 40,000€, 1yo, 55hp, 714€/mo, 150kw, 190km/h in table cars,2023-05-24T12:49:25.178928400
+inserted car Purple Renault Megane, 23,000€, 1yo, 55hp, 709€/mo, 130kw, 180km/h in table cars,2023-05-24T12:49:25.179663700
+inserted car Orange Mercedes-Benz C-Class, 45,000€, 2yo, 96hp, 463€/mo, 140kw, 190km/h in table cars,2023-05-24T12:49:25.180666100
+inserted car Blue Peugeot 308, 21,000€, 0yo, 100hp, 837€/mo, 120kw, 170km/h in table cars,2023-05-24T12:49:25.180666100
+inserted car Black Tesla Model S, 80,000€, 5yo, 71hp, 448€/mo, 300kw, 300km/h in table cars,2023-05-24T12:49:25.181665600
+inserted car Black Bugatti Veyron, 1,500,000€, 1yo, 94hp, 816€/mo, 1000kw, 407km/h in table cars,2023-05-24T12:49:25.181665600
+inserted car White BMW 3 Series, 40,000€, 5yo, 74hp, 270€/mo, 150kw, 190km/h in table cars,2023-05-24T12:49:25.182865100
+inserted car Blue Volvo XC60, 50,000€, 0yo, 100hp, 938€/mo, 250kw, 190km/h in table cars,2023-05-24T12:49:25.183416900
+inserted car Yellow Ford Focus, 18,000€, 5yo, 66hp, 413€/mo, 160kw, 180km/h in table cars,2023-05-24T12:49:25.183993500
+inserted car Silver Mercedes-Benz C-Class, 45,000€, 0yo, 100hp, 482€/mo, 140kw, 190km/h in table cars,2023-05-24T12:49:25.183993500
+inserted car Blue Bentley Continental GT, 250,000€, 4yo, 92hp, 537€/mo, 635kw, 320km/h in table cars,2023-05-24T12:49:25.185224200
+inserted car Red McLaren P1, 1,300,000€, 5yo, 96hp, 371€/mo, 903kw, 350km/h in table cars,2023-05-24T12:49:25.185224200
+inserted car Red Chevrolet Corvette, 70,000€, 0yo, 100hp, 481€/mo, 300kw, 350km/h in table cars,2023-05-24T12:49:25.186224900
+inserted car Gray Subaru Impreza, 23,000€, 3yo, 82hp, 379€/mo, 100kw, 180km/h in table cars,2023-05-24T12:49:25.186224900
+inserted car Black Ford Mustang, 50,000€, 0yo, 100hp, 566€/mo, 250kw, 300km/h in table cars,2023-05-24T12:49:25.187225600
+inserted car Green Tesla Model S, 80,000€, 5yo, 95hp, 998€/mo, 300kw, 300km/h in table cars,2023-05-24T12:49:25.188225500
+inserted car Purple Volvo XC60, 50,000€, 0yo, 100hp, 893€/mo, 250kw, 190km/h in table cars,2023-05-24T12:49:25.188225500
+inserted car Green Lamborghini Huracan, 250,000€, 3yo, 72hp, 249€/mo, 600kw, 350km/h in table cars,2023-05-24T12:49:25.189225800
+inserted car Green Hyundai Sonata, 22,000€, 0yo, 100hp, 340€/mo, 180kw, 170km/h in table cars,2023-05-24T12:49:25.189225800
+inserted car Orange Jaguar F-Type, 60,000€, 3yo, 85hp, 298€/mo, 340kw, 300km/h in table cars,2023-05-24T12:49:25.190227100
+inserted car Red Peugeot 308, 21,000€, 0yo, 100hp, 520€/mo, 120kw, 170km/h in table cars,2023-05-24T12:49:25.190227100
+inserted car Orange Bentley Continental GT, 250,000€, 0yo, 100hp, 649€/mo, 635kw, 320km/h in table cars,2023-05-24T12:49:25.191226800
+inserted car Gray Mercedes-Benz C-Class, 45,000€, 0yo, 100hp, 450€/mo, 140kw, 190km/h in table cars,2023-05-24T12:49:25.191226800
+inserted car Blue Lexus RX, 45,000€, 3yo, 50hp, 515€/mo, 290kw, 190km/h in table cars,2023-05-24T12:49:25.192227800
+inserted car Orange Acura NSX, 160,000€, 2yo, 89hp, 874€/mo, 573kw, 307km/h in table cars,2023-05-24T12:49:25.192227800
+inserted car Silver Honda Civic, 22,000€, 1yo, 96hp, 288€/mo, 115kw, 190km/h in table cars,2023-05-24T12:49:25.193445600
+inserted car Red Chevrolet Camaro, 35,000€, 4yo, 66hp, 591€/mo, 335kw, 180km/h in table cars,2023-05-24T12:49:25.193967
+inserted car Purple Aston Martin DB11, 200,000€, 2yo, 90hp, 621€/mo, 600kw, 320km/h in table cars,2023-05-24T12:49:25.193967
+inserted car Blue Ferrari 488 GTB, 300,000€, 5yo, 98hp, 559€/mo, 660kw, 330km/h in table cars,2023-05-24T12:49:25.194968200
+inserted car Orange Porsche 911, 90,000€, 1yo, 58hp, 300€/mo, 350kw, 320km/h in table cars,2023-05-24T12:49:25.194968200
+inserted car Blue Chevrolet Corvette, 70,000€, 4yo, 54hp, 487€/mo, 300kw, 350km/h in table cars,2023-05-24T12:49:25.195968800
+inserted car Silver Mercedes-Benz C-Class, 45,000€, 4yo, 54hp, 244€/mo, 140kw, 190km/h in table cars,2023-05-24T12:49:25.195968800
+inserted car Silver Rolls-Royce Phantom, 450,000€, 0yo, 100hp, 574€/mo, 563kw, 240km/h in table cars,2023-05-24T12:49:25.196968500
+inserted car Blue Tesla Model S, 80,000€, 5yo, 80hp, 672€/mo, 300kw, 300km/h in table cars,2023-05-24T12:49:25.196968500
+inserted car Blue Hyundai Sonata, 22,000€, 2yo, 88hp, 815€/mo, 180kw, 170km/h in table cars,2023-05-24T12:49:25.197969500
+inserted car Yellow Mazda 3, 20,000€, 3yo, 72hp, 329€/mo, 120kw, 180km/h in table cars,2023-05-24T12:49:25.197969500
+inserted car Green Bentley Continental GT, 250,000€, 3yo, 57hp, 348€/mo, 635kw, 320km/h in table cars,2023-05-24T12:49:25.198969400
+inserted car Orange Ferrari 488 GTB, 300,000€, 2yo, 77hp, 595€/mo, 660kw, 330km/h in table cars,2023-05-24T12:49:25.198969400
+inserted car White Chevrolet Corvette, 70,000€, 3yo, 74hp, 381€/mo, 300kw, 350km/h in table cars,2023-05-24T12:49:25.199969600
+inserted car White Tesla Model S, 80,000€, 4yo, 84hp, 227€/mo, 300kw, 300km/h in table cars,2023-05-24T12:49:25.199969600
+inserted car Green Ford Mustang, 50,000€, 5yo, 51hp, 494€/mo, 250kw, 300km/h in table cars,2023-05-24T12:49:25.200969700
+inserted car Red Renault Megane, 23,000€, 1yo, 74hp, 979€/mo, 130kw, 180km/h in table cars,2023-05-24T12:49:25.200969700
+inserted car Orange Hyundai Sonata, 22,000€, 3yo, 60hp, 266€/mo, 180kw, 170km/h in table cars,2023-05-24T12:49:25.201970300
+inserted car Black Renault Megane, 23,000€, 3yo, 52hp, 676€/mo, 130kw, 180km/h in table cars,2023-05-24T12:49:25.201970300
+inserted car Green Chevrolet Camaro, 35,000€, 5yo, 83hp, 264€/mo, 335kw, 180km/h in table cars,2023-05-24T12:49:25.202970400
+inserted car Blue Honda Civic, 22,000€, 3yo, 99hp, 439€/mo, 115kw, 190km/h in table cars,2023-05-24T12:49:25.203970100
+inserted car Purple Tesla Model S, 80,000€, 2yo, 55hp, 966€/mo, 300kw, 300km/h in table cars,2023-05-24T12:49:25.203970100
+inserted car Green Hyundai Sonata, 22,000€, 3yo, 60hp, 801€/mo, 180kw, 170km/h in table cars,2023-05-24T12:49:25.204970800
+inserted car Blue Lamborghini Huracan, 250,000€, 5yo, 73hp, 374€/mo, 600kw, 350km/h in table cars,2023-05-24T12:49:25.204970800
+inserted car Yellow Volkswagen Golf, 18,000€, 0yo, 100hp, 231€/mo, 90kw, 180km/h in table cars,2023-05-24T12:49:25.205971
+inserted house Cozy Cottage, 149,470€, 15yo, 97hp, cost: 275€/month, 1405mp, 2 rooms, income: 984€/month in table houses,2023-05-24T12:49:25.212647400
+inserted house Luxury Villa, 999,790€, 12yo, 99hp, cost: 1,103€/month, 4043mp, 6 rooms, income: 11,504€/month in table houses,2023-05-24T12:49:25.213648500
+inserted house Suburban Home, 300,180€, 6yo, 78hp, cost: 352€/month, 2373mp, 2 rooms, income: 2,885€/month in table houses,2023-05-24T12:49:25.213648500
+inserted house Suburban Home, 300,380€, 3yo, 68hp, cost: 452€/month, 2487mp, 3 rooms, income: 2,988€/month in table houses,2023-05-24T12:49:25.214648400
+inserted house Luxury Villa, 1,000,700€, 3yo, 100hp, cost: 904€/month, 4026mp, 4 rooms, income: 11,906€/month in table houses,2023-05-24T12:49:25.215648100
+inserted house Suburban Home, 300,280€, 4yo, 68hp, cost: 551€/month, 1801mp, 4 rooms, income: 3,356€/month in table houses,2023-05-24T12:49:25.215648100
+inserted house Country Farmhouse, 401,000€, 0yo, 100hp, cost: 312€/month, 12662mp, 1 rooms, income: 1,217€/month in table houses,2023-05-24T12:49:25.216648400
+inserted house Cozy Cottage, 149,300€, 17yo, 100hp, cost: 375€/month, 1511mp, 3 rooms, income: 750€/month in table houses,2023-05-24T12:49:25.216648400
+inserted house Cozy Cottage, 149,270€, 17yo, 97hp, cost: 275€/month, 1252mp, 2 rooms, income: 1,373€/month in table houses,2023-05-24T12:49:25.217649300
+inserted house Country Farmhouse, 400,370€, 6yo, 97hp, cost: 512€/month, 12720mp, 3 rooms, income: 1,004€/month in table houses,2023-05-24T12:49:25.218648900
+inserted house Modern Apartment, 199,050€, 19yo, 95hp, cost: 400€/month, 1077mp, 3 rooms, income: 1,415€/month in table houses,2023-05-24T12:49:25.218648900
+inserted house Suburban Home, 299,630€, 12yo, 83hp, cost: 651€/month, 2122mp, 5 rooms, income: 3,400€/month in table houses,2023-05-24T12:49:25.219648900
+inserted house Country Farmhouse, 399,550€, 14yo, 95hp, cost: 511€/month, 12922mp, 3 rooms, income: 917€/month in table houses,2023-05-24T12:49:25.219648900
+inserted house Country Farmhouse, 400,000€, 10yo, 100hp, cost: 712€/month, 12605mp, 5 rooms, income: 1,090€/month in table houses,2023-05-24T12:49:25.220649900
+inserted house Luxury Villa, 999,470€, 15yo, 97hp, cost: 1,102€/month, 3545mp, 6 rooms, income: 11,850€/month in table houses,2023-05-24T12:49:25.220649900
+inserted house Cozy Cottage, 150,540€, 4yo, 94hp, cost: 175€/month, 948mp, 1 rooms, income: 966€/month in table houses,2023-05-24T12:49:25.221724100
+inserted house Country Farmhouse, 399,050€, 19yo, 95hp, cost: 511€/month, 12949mp, 3 rooms, income: 815€/month in table houses,2023-05-24T12:49:25.221724100
+inserted house Cozy Cottage, 150,000€, 10yo, 100hp, cost: 176€/month, 1681mp, 1 rooms, income: 889€/month in table houses,2023-05-24T12:49:25.222724900
+inserted house Country Farmhouse, 399,160€, 18yo, 96hp, cost: 711€/month, 12976mp, 5 rooms, income: 1,288€/month in table houses,2023-05-24T12:49:25.222724900
+inserted house Suburban Home, 299,030€, 18yo, 83hp, cost: 350€/month, 1641mp, 2 rooms, income: 3,264€/month in table houses,2023-05-24T12:49:25.223726700
+inserted house Cozy Cottage, 150,500€, 5yo, 100hp, cost: 376€/month, 1448mp, 3 rooms, income: 1,429€/month in table houses,2023-05-24T12:49:25.223726700
+inserted house Modern Apartment, 200,080€, 8yo, 88hp, cost: 1€/month, 1161mp, -1 rooms, income: 1,293€/month in table houses,2023-05-24T12:49:25.224726800
+inserted house Suburban Home, 298,990€, 17yo, 69hp, cost: 651€/month, 2257mp, 5 rooms, income: 2,629€/month in table houses,2023-05-24T12:49:25.224726800
+inserted house Country Farmhouse, 399,960€, 10yo, 96hp, cost: 311€/month, 12215mp, 1 rooms, income: 1,196€/month in table houses,2023-05-24T12:49:25.225726500
+inserted house Modern Apartment, 200,210€, 7yo, 91hp, cost: 200€/month, 911mp, 1 rooms, income: 1,392€/month in table houses,2023-05-24T12:49:25.225726500
+inserted job Job{name='Product Manager', salary=114227, company='Apple', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.231728800
+inserted job Job{name='Mechanical Engineer', salary=67610, company='Bloomberg', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.231728800
+inserted job Job{name='Graphic Designer', salary=26146, company='Intel', educationLevel='Associate Degree'} in table jobs,2023-05-24T12:49:25.232727300
+inserted job Job{name='Research Scientist', salary=72282, company='Cisco', educationLevel='PhD'} in table jobs,2023-05-24T12:49:25.232727300
+inserted job Job{name='Operations Manager', salary=83781, company='Oracle', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.232727300
+inserted job Job{name='Marketing Coordinator', salary=36937, company='Microsoft', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.233728500
+inserted job Job{name='Electrician', salary=64540, company='Deloitte', educationLevel='Trade Certification'} in table jobs,2023-05-24T12:49:25.233728500
+inserted job Job{name='Chef', salary=42122, company='General Electric', educationLevel='Culinary Degree'} in table jobs,2023-05-24T12:49:25.234728300
+inserted job Job{name='Project Manager', salary=60109, company='Boeing', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.234728300
+inserted job Job{name='Sales Representative', salary=41739, company='Apple', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:49:25.234728300
+inserted job Job{name='Graphic Designer', salary=60025, company='Oracle', educationLevel='Associate Degree'} in table jobs,2023-05-24T12:49:25.235727900
+inserted job Job{name='Marketing Coordinator', salary=58644, company='Oracle', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.235727900
+inserted job Job{name='Architect', salary=46514, company='Intel', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.236728200
+inserted job Job{name='Data Scientist', salary=97522, company='Kaiser Permanente', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.236728200
+inserted job Job{name='Mechanical Engineer', salary=61812, company='Kaiser Permanente', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.237729100
+inserted job Job{name='Customer Service Representative', salary=50314, company='Apple', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:49:25.237729100
+inserted job Job{name='Customer Service Representative', salary=18625, company='Tesla', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:49:25.238408700
+inserted job Job{name='Data Analyst', salary=86918, company='Siemens', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.238408700
+inserted job Job{name='Sales Representative', salary=44170, company='CNN', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:49:25.238408700
+inserted job Job{name='Data Analyst', salary=69274, company='Intel', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.239410300
+inserted job Job{name='Data Analyst', salary=66745, company='Intel', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.239410300
+inserted job Job{name='Software Engineer', salary=46488, company='Cisco', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.240410800
+inserted job Job{name='Nurse', salary=84060, company='Baker McKenzie', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.240410800
+inserted job Job{name='Mechanical Engineer', salary=65411, company='Skidmore, Owings & Merrill', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.240410800
+inserted job Job{name='Sales Representative', salary=65755, company='Cisco', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:49:25.241410100
+inserted job Job{name='Architect', salary=55196, company='Facebook', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.241410100
+inserted job Job{name='Project Manager', salary=76586, company='J.P. Morgan', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.241410100
+inserted job Job{name='Web Developer', salary=72266, company='IBM', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.242411100
+inserted job Job{name='Architect', salary=72663, company='Tesla', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.242411100
+inserted job Job{name='Data Analyst', salary=48420, company='Boeing', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.243410500
+inserted job Job{name='Lawyer', salary=82293, company='Oracle', educationLevel='Law Degree'} in table jobs,2023-05-24T12:49:25.243410500
+inserted job Job{name='Chef', salary=38683, company='Baker McKenzie', educationLevel='Culinary Degree'} in table jobs,2023-05-24T12:49:25.243410500
+inserted job Job{name='Software Engineer', salary=63196, company='Kaiser Permanente', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.244411200
+inserted job Job{name='Healthcare Administrator', salary=57967, company='Oracle', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.244411200
+inserted job Job{name='Web Developer', salary=68342, company='IBM', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.245411500
+inserted job Job{name='Healthcare Administrator', salary=63925, company='IBM', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.245411500
+inserted job Job{name='Operations Manager', salary=45725, company='Bloomberg', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.245411500
+inserted job Job{name='Operations Manager', salary=92501, company='Oracle', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.246411
+inserted job Job{name='Sales Representative', salary=54221, company='Walmart', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:49:25.246411
+inserted job Job{name='Social Media Manager', salary=28976, company='Tesla', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.246411
+inserted job Job{name='Customer Service Representative', salary=21967, company='Siemens', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:49:25.247411500
+inserted job Job{name='Architect', salary=67022, company='General Electric', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.247411500
+inserted job Job{name='Data Scientist', salary=59009, company='Bloomberg', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.247411500
+inserted job Job{name='Financial Analyst', salary=45980, company='Procter & Gamble', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.248411700
+inserted job Job{name='Web Developer', salary=51074, company='General Electric', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.248411700
+inserted job Job{name='Sales Representative', salary=38615, company='Kaiser Permanente', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:49:25.248411700
+inserted job Job{name='Accountant', salary=51864, company='Deloitte', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.249412600
+inserted job Job{name='Marketing Manager', salary=44802, company='Microsoft', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.249412600
+inserted job Job{name='Project Manager', salary=74556, company='Pfizer', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.250412800
+inserted job Job{name='Data Scientist', salary=63642, company='Procter & Gamble', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.250412800
+inserted job Job{name='Marketing Coordinator', salary=42764, company='Microsoft', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.251413
+inserted job Job{name='Sales Representative', salary=37152, company='Walmart', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:49:25.251413
+inserted job Job{name='Healthcare Administrator', salary=52298, company='Cisco', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.251413
+inserted job Job{name='Financial Analyst', salary=82371, company='CNN', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.252413
+inserted job Job{name='Marketing Coordinator', salary=37508, company='Procter & Gamble', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.252413
+inserted job Job{name='Human Resources Manager', salary=91733, company='Skidmore, Owings & Merrill', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.252413
+inserted job Job{name='Mechanical Engineer', salary=36402, company='Deloitte', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.253413300
+inserted job Job{name='Financial Analyst', salary=57748, company='Marriott International', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.253413300
+inserted job Job{name='Data Scientist', salary=99741, company='Baker McKenzie', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.254413700
+inserted job Job{name='Marketing Coordinator', salary=52015, company='Netflix', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.254413700
+inserted job Job{name='Chef', salary=60421, company='Bloomberg', educationLevel='Culinary Degree'} in table jobs,2023-05-24T12:49:25.254413700
+inserted job Job{name='Healthcare Administrator', salary=39087, company='General Electric', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.255413500
+inserted job Job{name='Healthcare Administrator', salary=80737, company='Siemens', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.255413500
+inserted job Job{name='Project Manager', salary=87197, company='Deloitte', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.256413900
+inserted job Job{name='Operations Manager', salary=80807, company='Baker McKenzie', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.256413900
+inserted job Job{name='Financial Analyst', salary=61430, company='Amazon', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.256413900
+inserted job Job{name='Marketing Manager', salary=73454, company='IBM', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.257414500
+inserted job Job{name='Mechanical Engineer', salary=70135, company='Oracle', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.257414500
+inserted job Job{name='Healthcare Administrator', salary=48884, company='Boeing', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.257414500
+inserted job Job{name='Social Media Manager', salary=58140, company='Pfizer', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.258414400
+inserted job Job{name='Social Media Manager', salary=53902, company='Netflix', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.258414400
+inserted job Job{name='Data Analyst', salary=40725, company='Netflix', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.258414400
+inserted job Job{name='Web Developer', salary=70970, company='Marriott International', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.259415
+inserted job Job{name='Software Engineer', salary=108108, company='Marriott International', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.259415
+inserted job Job{name='Nurse', salary=70236, company='Facebook', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.259415
+inserted job Job{name='Nurse', salary=64579, company='Ford', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.260415
+inserted job Job{name='Marketing Coordinator', salary=55417, company='IBM', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.260415
+inserted job Job{name='Nurse', salary=48032, company='Amazon', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.261415300
+inserted job Job{name='Marketing Manager', salary=36647, company='Ford', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.261415300
+inserted job Job{name='Accountant', salary=65265, company='Ford', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.261415300
+inserted job Job{name='Marketing Manager', salary=82635, company='Boeing', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.262415300
+inserted job Job{name='Social Media Manager', salary=30477, company='Procter & Gamble', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.262415300
+inserted job Job{name='Human Resources Manager', salary=48413, company='IBM', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.262415300
+inserted job Job{name='Data Analyst', salary=33117, company='Kaiser Permanente', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.263415500
+inserted job Job{name='Marketing Manager', salary=58181, company='Walmart', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.263415500
+inserted job Job{name='Data Scientist', salary=97012, company='Baker McKenzie', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.264416100
+inserted job Job{name='Data Scientist', salary=65365, company='Siemens', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.264416100
+inserted job Job{name='Chef', salary=31615, company='Tesla', educationLevel='Culinary Degree'} in table jobs,2023-05-24T12:49:25.264416100
+inserted job Job{name='Graphic Designer', salary=53179, company='Facebook', educationLevel='Associate Degree'} in table jobs,2023-05-24T12:49:25.265415400
+inserted job Job{name='Product Manager', salary=97537, company='General Electric', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.265415400
+inserted job Job{name='Marketing Manager', salary=40241, company='Netflix', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.265415400
+inserted job Job{name='Marketing Manager', salary=42109, company='Procter & Gamble', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.266512800
+inserted job Job{name='Nurse', salary=49952, company='Skidmore, Owings & Merrill', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.266879700
+inserted job Job{name='Healthcare Administrator', salary=38121, company='J.P. Morgan', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.267225600
+inserted job Job{name='Mechanical Engineer', salary=57142, company='Google', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.267225600
+inserted job Job{name='Marketing Coordinator', salary=55175, company='Tesla', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.267225600
+inserted job Job{name='Financial Analyst', salary=77880, company='Deloitte', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.268227500
+inserted job Job{name='Journalist', salary=32892, company='Siemens', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.268227500
+inserted job Job{name='Data Scientist', salary=80315, company='Skidmore, Owings & Merrill', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:49:25.268227500
+inserted job Job{name='Accountant', salary=53626, company='Boeing', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:49:25.269227200
+inserted education Education{name='Law Degree', cost=14789, duration=1, type=7} in table education,2023-05-24T12:49:25.273228200
+inserted education Education{name='Master's Degree', cost=7549, duration=4, type=5} in table education,2023-05-24T12:49:25.274227700
+inserted education Education{name='Master's Degree', cost=5299, duration=2, type=5} in table education,2023-05-24T12:49:25.274227700
+inserted education Education{name='Master's Degree', cost=5816, duration=2, type=5} in table education,2023-05-24T12:49:25.275228200
+inserted education Education{name='Culinary Degree', cost=8569, duration=4, type=2} in table education,2023-05-24T12:49:25.275228200
+inserted education Education{name='High School Diploma', cost=11857, duration=1, type=0} in table education,2023-05-24T12:49:25.276228500
+inserted education Education{name='Law Degree', cost=14249, duration=1, type=7} in table education,2023-05-24T12:49:25.276228500
+inserted education Education{name='Master's Degree', cost=6626, duration=2, type=5} in table education,2023-05-24T12:49:25.276228500
+inserted education Education{name='Bachelor's Degree', cost=8597, duration=4, type=3} in table education,2023-05-24T12:49:25.277228500
+inserted education Education{name='Master's Degree', cost=7077, duration=4, type=5} in table education,2023-05-24T12:49:25.277228500
+inserted education Education{name='Associate Degree', cost=7806, duration=4, type=4} in table education,2023-05-24T12:49:25.278228800
+inserted education Education{name='Trade Certification', cost=10016, duration=3, type=1} in table education,2023-05-24T12:49:25.278228800
+inserted education Education{name='Culinary Degree', cost=10366, duration=4, type=2} in table education,2023-05-24T12:49:25.278228800
+inserted education Education{name='High School Diploma', cost=10667, duration=1, type=0} in table education,2023-05-24T12:49:25.279229
+inserted education Education{name='Master's Degree', cost=5152, duration=1, type=5} in table education,2023-05-24T12:49:25.279229
+inserted education Education{name='Associate Degree', cost=7650, duration=3, type=4} in table education,2023-05-24T12:49:25.279229
+inserted education Education{name='Bachelor's Degree', cost=12189, duration=2, type=3} in table education,2023-05-24T12:49:25.280230900
+inserted education Education{name='Master's Degree', cost=13222, duration=2, type=5} in table education,2023-05-24T12:49:25.280230900
+inserted education Education{name='Associate Degree', cost=7826, duration=3, type=4} in table education,2023-05-24T12:49:25.280230900
+inserted education Education{name='Bachelor's Degree', cost=12654, duration=4, type=3} in table education,2023-05-24T12:49:25.281230300
+connected to the database,2023-05-24T12:50:56.144910300
+inserted car Red Honda Civic, 22,000€, 1yo, 62hp, 505€/mo, 115kw, 190km/h in table cars,2023-05-24T12:50:56.173365
+inserted car Blue Rolls-Royce Phantom, 450,000€, 3yo, 57hp, 447€/mo, 563kw, 240km/h in table cars,2023-05-24T12:50:56.174365600
+inserted car Green Subaru Impreza, 23,000€, 0yo, 100hp, 413€/mo, 100kw, 180km/h in table cars,2023-05-24T12:50:56.175364700
+inserted car Gray Mercedes-Benz C-Class, 45,000€, 3yo, 60hp, 984€/mo, 140kw, 190km/h in table cars,2023-05-24T12:50:56.175364700
+inserted car Blue Chevrolet Camaro, 35,000€, 3yo, 99hp, 859€/mo, 335kw, 180km/h in table cars,2023-05-24T12:50:56.176365200
+inserted car Blue Audi A4, 42,000€, 1yo, 54hp, 956€/mo, 130kw, 190km/h in table cars,2023-05-24T12:50:56.177030700
+inserted car Black Ferrari 488 GTB, 300,000€, 5yo, 67hp, 497€/mo, 660kw, 330km/h in table cars,2023-05-24T12:50:56.177030700
+inserted car Gray Mazda 3, 20,000€, 5yo, 72hp, 823€/mo, 120kw, 180km/h in table cars,2023-05-24T12:50:56.178151300
+inserted car Yellow Volvo XC60, 50,000€, 3yo, 88hp, 246€/mo, 250kw, 190km/h in table cars,2023-05-24T12:50:56.178690400
+inserted car Yellow Jaguar F-Type, 60,000€, 1yo, 67hp, 961€/mo, 340kw, 300km/h in table cars,2023-05-24T12:50:56.178690400
+inserted car Orange Ferrari 488 GTB, 300,000€, 3yo, 97hp, 282€/mo, 660kw, 330km/h in table cars,2023-05-24T12:50:56.179691100
+inserted car White Peugeot 308, 21,000€, 5yo, 90hp, 950€/mo, 120kw, 170km/h in table cars,2023-05-24T12:50:56.179691100
+inserted car Silver Peugeot 308, 21,000€, 1yo, 88hp, 714€/mo, 120kw, 170km/h in table cars,2023-05-24T12:50:56.180691800
+inserted car Blue Chevrolet Camaro, 35,000€, 0yo, 100hp, 446€/mo, 335kw, 180km/h in table cars,2023-05-24T12:50:56.180691800
+inserted car Gray Porsche 911, 90,000€, 2yo, 77hp, 587€/mo, 350kw, 320km/h in table cars,2023-05-24T12:50:56.181692500
+inserted car White Nissan GT-R, 110,000€, 2yo, 70hp, 737€/mo, 570kw, 320km/h in table cars,2023-05-24T12:50:56.182691900
+inserted car Gray Ford Focus, 18,000€, 5yo, 77hp, 315€/mo, 160kw, 180km/h in table cars,2023-05-24T12:50:56.182691900
+inserted car Orange Nissan GT-R, 110,000€, 4yo, 83hp, 238€/mo, 570kw, 320km/h in table cars,2023-05-24T12:50:56.183692500
+inserted car Purple Acura NSX, 160,000€, 3yo, 91hp, 588€/mo, 573kw, 307km/h in table cars,2023-05-24T12:50:56.183692500
+inserted car Green Audi A4, 42,000€, 4yo, 54hp, 488€/mo, 130kw, 190km/h in table cars,2023-05-24T12:50:56.184692700
+inserted car Green Hyundai Sonata, 22,000€, 3yo, 62hp, 714€/mo, 180kw, 170km/h in table cars,2023-05-24T12:50:56.184692700
+inserted car Green Porsche 911, 90,000€, 4yo, 100hp, 310€/mo, 350kw, 320km/h in table cars,2023-05-24T12:50:56.185693
+inserted car Silver Chevrolet Camaro, 35,000€, 4yo, 76hp, 378€/mo, 335kw, 180km/h in table cars,2023-05-24T12:50:56.186693500
+inserted car Red Audi A4, 42,000€, 5yo, 59hp, 512€/mo, 130kw, 190km/h in table cars,2023-05-24T12:50:56.186693500
+inserted car Red Kia Sportage, 25,000€, 5yo, 77hp, 893€/mo, 170kw, 180km/h in table cars,2023-05-24T12:50:56.187693500
+inserted car Silver Hyundai Sonata, 22,000€, 4yo, 76hp, 634€/mo, 180kw, 170km/h in table cars,2023-05-24T12:50:56.187693500
+inserted car Gray Bugatti Veyron, 1,500,000€, 2yo, 87hp, 207€/mo, 1000kw, 407km/h in table cars,2023-05-24T12:50:56.188693600
+inserted car Orange Jaguar F-Type, 60,000€, 4yo, 57hp, 433€/mo, 340kw, 300km/h in table cars,2023-05-24T12:50:56.188693600
+inserted car Gray Honda Civic, 22,000€, 4yo, 84hp, 793€/mo, 115kw, 190km/h in table cars,2023-05-24T12:50:56.189693800
+inserted car Blue BMW 3 Series, 40,000€, 5yo, 93hp, 702€/mo, 150kw, 190km/h in table cars,2023-05-24T12:50:56.189693800
+inserted car Orange Subaru Impreza, 23,000€, 5yo, 72hp, 233€/mo, 100kw, 180km/h in table cars,2023-05-24T12:50:56.190694
+inserted car Orange Nissan GT-R, 110,000€, 4yo, 84hp, 658€/mo, 570kw, 320km/h in table cars,2023-05-24T12:50:56.190694
+inserted car Silver Tesla Model S, 80,000€, 3yo, 50hp, 981€/mo, 300kw, 300km/h in table cars,2023-05-24T12:50:56.191694900
+inserted car Gray Tesla Model S, 80,000€, 3yo, 95hp, 291€/mo, 300kw, 300km/h in table cars,2023-05-24T12:50:56.191694900
+inserted car Black Kia Sportage, 25,000€, 4yo, 98hp, 229€/mo, 170kw, 180km/h in table cars,2023-05-24T12:50:56.192694400
+inserted car Red Bentley Continental GT, 250,000€, 4yo, 59hp, 589€/mo, 635kw, 320km/h in table cars,2023-05-24T12:50:56.192694400
+inserted car Orange Subaru WRX STI, 35,000€, 0yo, 100hp, 441€/mo, 310kw, 195km/h in table cars,2023-05-24T12:50:56.193694800
+inserted car Silver Chevrolet Camaro, 35,000€, 0yo, 100hp, 785€/mo, 335kw, 180km/h in table cars,2023-05-24T12:50:56.193694800
+inserted car Purple Lamborghini Huracan, 250,000€, 0yo, 100hp, 357€/mo, 600kw, 350km/h in table cars,2023-05-24T12:50:56.194694900
+inserted car Black Volkswagen Golf, 18,000€, 4yo, 79hp, 370€/mo, 90kw, 180km/h in table cars,2023-05-24T12:50:56.194694900
+inserted car Yellow Volkswagen Golf, 18,000€, 5yo, 70hp, 630€/mo, 90kw, 180km/h in table cars,2023-05-24T12:50:56.195694700
+inserted car White Acura NSX, 160,000€, 3yo, 57hp, 490€/mo, 573kw, 307km/h in table cars,2023-05-24T12:50:56.195694700
+inserted car Orange Tesla Model S, 80,000€, 3yo, 97hp, 566€/mo, 300kw, 300km/h in table cars,2023-05-24T12:50:56.196695600
+inserted car Gray Bentley Continental GT, 250,000€, 4yo, 73hp, 553€/mo, 635kw, 320km/h in table cars,2023-05-24T12:50:56.196695600
+inserted car White Subaru WRX STI, 35,000€, 0yo, 100hp, 624€/mo, 310kw, 195km/h in table cars,2023-05-24T12:50:56.197695900
+inserted car Black Volkswagen Golf, 18,000€, 4yo, 94hp, 291€/mo, 90kw, 180km/h in table cars,2023-05-24T12:50:56.197695900
+inserted car White McLaren P1, 1,300,000€, 3yo, 64hp, 762€/mo, 903kw, 350km/h in table cars,2023-05-24T12:50:56.198695700
+inserted car Black Bugatti Veyron, 1,500,000€, 3yo, 54hp, 207€/mo, 1000kw, 407km/h in table cars,2023-05-24T12:50:56.199695900
+inserted car Green Kia Sportage, 25,000€, 4yo, 73hp, 830€/mo, 170kw, 180km/h in table cars,2023-05-24T12:50:56.199695900
+inserted car Orange Bentley Continental GT, 250,000€, 4yo, 95hp, 342€/mo, 635kw, 320km/h in table cars,2023-05-24T12:50:56.200696400
+inserted house Modern Apartment, 199,370€, 16yo, 97hp, cost: 400€/month, 1074mp, 3 rooms, income: 1,017€/month in table houses,2023-05-24T12:50:56.206697600
+inserted house Country Farmhouse, 400,600€, 4yo, 100hp, cost: 712€/month, 12923mp, 5 rooms, income: 733€/month in table houses,2023-05-24T12:50:56.207698
+inserted house Country Farmhouse, 400,100€, 9yo, 100hp, cost: 612€/month, 12910mp, 4 rooms, income: 1,077€/month in table houses,2023-05-24T12:50:56.207698
+inserted house Country Farmhouse, 399,720€, 12yo, 92hp, cost: 711€/month, 12309mp, 5 rooms, income: 1,015€/month in table houses,2023-05-24T12:50:56.208698
+inserted house Luxury Villa, 999,900€, 10yo, 90hp, cost: 1,303€/month, 4052mp, 8 rooms, income: 11,986€/month in table houses,2023-05-24T12:50:56.208698
+inserted house Country Farmhouse, 400,500€, 5yo, 100hp, cost: 512€/month, 12747mp, 3 rooms, income: 1,036€/month in table houses,2023-05-24T12:50:56.209697900
+inserted house Luxury Villa, 1,000,150€, 8yo, 95hp, cost: 1,203€/month, 3607mp, 7 rooms, income: 11,836€/month in table houses,2023-05-24T12:50:56.209697900
+inserted house Modern Apartment, 200,190€, 7yo, 89hp, cost: 100€/month, 573mp, 0 rooms, income: 1,185€/month in table houses,2023-05-24T12:50:56.210698200
+inserted house Modern Apartment, 200,590€, 4yo, 99hp, cost: 100€/month, 869mp, 0 rooms, income: 1,011€/month in table houses,2023-05-24T12:50:56.210698200
+inserted house Luxury Villa, 999,200€, 18yo, 100hp, cost: 1,203€/month, 4408mp, 7 rooms, income: 11,689€/month in table houses,2023-05-24T12:50:56.211698700
+inserted house Luxury Villa, 999,510€, 14yo, 91hp, cost: 1,102€/month, 3992mp, 6 rooms, income: 12,467€/month in table houses,2023-05-24T12:50:56.211698700
+inserted house Cozy Cottage, 149,400€, 16yo, 100hp, cost: 475€/month, 1075mp, 4 rooms, income: 774€/month in table houses,2023-05-24T12:50:56.212698700
+inserted house Cozy Cottage, 149,580€, 14yo, 98hp, cost: 475€/month, 1151mp, 4 rooms, income: 859€/month in table houses,2023-05-24T12:50:56.212698700
+inserted house Country Farmhouse, 400,080€, 9yo, 98hp, cost: 312€/month, 12103mp, 1 rooms, income: 411€/month in table houses,2023-05-24T12:50:56.213699600
+inserted house Suburban Home, 298,680€, 20yo, 68hp, cost: 751€/month, 2255mp, 6 rooms, income: 3,193€/month in table houses,2023-05-24T12:50:56.214699800
+inserted house Luxury Villa, 999,900€, 11yo, 100hp, cost: 1,002€/month, 3747mp, 5 rooms, income: 12,146€/month in table houses,2023-05-24T12:50:56.214699800
+inserted house Country Farmhouse, 399,370€, 16yo, 97hp, cost: 411€/month, 12864mp, 2 rooms, income: 626€/month in table houses,2023-05-24T12:50:56.215699200
+inserted house Suburban Home, 300,030€, 8yo, 83hp, cost: 551€/month, 1606mp, 4 rooms, income: 2,829€/month in table houses,2023-05-24T12:50:56.215699200
+inserted house Suburban Home, 299,420€, 13yo, 72hp, cost: 750€/month, 1905mp, 6 rooms, income: 3,076€/month in table houses,2023-05-24T12:50:56.216699600
+inserted house Modern Apartment, 200,830€, 1yo, 93hp, cost: 200€/month, 742mp, 1 rooms, income: 1,191€/month in table houses,2023-05-24T12:50:56.216699600
+inserted house Suburban Home, 299,560€, 13yo, 86hp, cost: 351€/month, 2337mp, 2 rooms, income: 3,190€/month in table houses,2023-05-24T12:50:56.217699700
+inserted house Cozy Cottage, 149,400€, 15yo, 90hp, cost: 275€/month, 1002mp, 2 rooms, income: 814€/month in table houses,2023-05-24T12:50:56.217699700
+inserted house Luxury Villa, 999,280€, 16yo, 88hp, cost: 1,202€/month, 3843mp, 7 rooms, income: 11,801€/month in table houses,2023-05-24T12:50:56.218699800
+inserted house Luxury Villa, 1,000,250€, 7yo, 95hp, cost: 904€/month, 4282mp, 4 rooms, income: 11,966€/month in table houses,2023-05-24T12:50:56.218699800
+inserted house Luxury Villa, 999,200€, 17yo, 90hp, cost: 1,102€/month, 3688mp, 6 rooms, income: 12,155€/month in table houses,2023-05-24T12:50:56.219700600
+inserted job Job{name='Customer Service Representative', salary=41196, company='Kaiser Permanente', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:50:56.224702
+inserted job Job{name='Project Manager', salary=81822, company='Kaiser Permanente', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.224702
+inserted job Job{name='Operations Manager', salary=68901, company='Procter & Gamble', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.225702200
+inserted job Job{name='Journalist', salary=47953, company='J.P. Morgan', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.225702200
+inserted job Job{name='Software Engineer', salary=113184, company='Marriott International', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.225702200
+inserted job Job{name='Customer Service Representative', salary=25109, company='Siemens', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:50:56.226701900
+inserted job Job{name='Financial Analyst', salary=75647, company='Boeing', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.226701900
+inserted job Job{name='Data Scientist', salary=99955, company='Skidmore, Owings & Merrill', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.226701900
+inserted job Job{name='Nurse', salary=84924, company='Siemens', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.227702300
+inserted job Job{name='Architect', salary=77577, company='Google', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.227702300
+inserted job Job{name='Journalist', salary=57254, company='Amazon', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.228702700
+inserted job Job{name='Data Scientist', salary=82950, company='Pfizer', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.228702700
+inserted job Job{name='Operations Manager', salary=62120, company='J.P. Morgan', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.228702700
+inserted job Job{name='Operations Manager', salary=78950, company='Deloitte', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.229702900
+inserted job Job{name='Lawyer', salary=161797, company='Cisco', educationLevel='Law Degree'} in table jobs,2023-05-24T12:50:56.229702900
+inserted job Job{name='Healthcare Administrator', salary=64776, company='Amazon', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.229702900
+inserted job Job{name='Nurse', salary=33723, company='Facebook', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.230703100
+inserted job Job{name='Financial Analyst', salary=83114, company='Skidmore, Owings & Merrill', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.230703100
+inserted job Job{name='Lawyer', salary=91670, company='Apple', educationLevel='Law Degree'} in table jobs,2023-05-24T12:50:56.230703100
+inserted job Job{name='Project Manager', salary=36297, company='Cisco', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.231703600
+inserted job Job{name='Lawyer', salary=70940, company='Procter & Gamble', educationLevel='Law Degree'} in table jobs,2023-05-24T12:50:56.231703600
+inserted job Job{name='Architect', salary=94075, company='Amazon', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.232703600
+inserted job Job{name='Human Resources Manager', salary=102233, company='Facebook', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.232703600
+inserted job Job{name='Data Scientist', salary=59703, company='Intel', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.233704100
+inserted job Job{name='Software Engineer', salary=93542, company='Amazon', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.233704100
+inserted job Job{name='Data Scientist', salary=50690, company='CNN', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.234704100
+inserted job Job{name='Product Manager', salary=98805, company='IBM', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.234704100
+inserted job Job{name='Graphic Designer', salary=41439, company='CNN', educationLevel='Associate Degree'} in table jobs,2023-05-24T12:50:56.234704100
+inserted job Job{name='Social Media Manager', salary=49131, company='Walmart', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.235704400
+inserted job Job{name='Data Scientist', salary=101334, company='IBM', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.235704400
+inserted job Job{name='Marketing Manager', salary=67515, company='CNN', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.235704400
+inserted job Job{name='Software Engineer', salary=74053, company='J.P. Morgan', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.236704500
+inserted job Job{name='Accountant', salary=44051, company='Netflix', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.236704500
+inserted job Job{name='Healthcare Administrator', salary=50924, company='Facebook', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.237704200
+inserted job Job{name='Research Scientist', salary=53492, company='Skidmore, Owings & Merrill', educationLevel='PhD'} in table jobs,2023-05-24T12:50:56.237704200
+inserted job Job{name='Research Scientist', salary=79594, company='Oracle', educationLevel='PhD'} in table jobs,2023-05-24T12:50:56.237704200
+inserted job Job{name='Architect', salary=51661, company='Bloomberg', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.238705
+inserted job Job{name='Product Manager', salary=76892, company='CNN', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.238705
+inserted job Job{name='Nurse', salary=72889, company='Deloitte', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.238705
+inserted job Job{name='Accountant', salary=80575, company='Bloomberg', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.239705900
+inserted job Job{name='Social Media Manager', salary=40035, company='Baker McKenzie', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.239705900
+inserted job Job{name='Sales Representative', salary=28548, company='Ford', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:50:56.240705600
+inserted job Job{name='Healthcare Administrator', salary=73007, company='Skidmore, Owings & Merrill', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.240705600
+inserted job Job{name='Human Resources Manager', salary=71070, company='Google', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.240705600
+inserted job Job{name='Financial Analyst', salary=89374, company='Procter & Gamble', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.241706
+inserted job Job{name='Marketing Manager', salary=64707, company='Skidmore, Owings & Merrill', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.241706
+inserted job Job{name='Web Developer', salary=76546, company='Pfizer', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.241706
+inserted job Job{name='Social Media Manager', salary=58706, company='Apple', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.242705900
+inserted job Job{name='Nurse', salary=87826, company='Google', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.242705900
+inserted job Job{name='Marketing Coordinator', salary=29053, company='Microsoft', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.243705400
+inserted job Job{name='Web Developer', salary=72091, company='Oracle', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.243705400
+inserted job Job{name='Marketing Coordinator', salary=45333, company='Boeing', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.243705400
+inserted job Job{name='Social Media Manager', salary=61371, company='Tesla', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.244705600
+inserted job Job{name='Financial Analyst', salary=69837, company='J.P. Morgan', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.244705600
+inserted job Job{name='Human Resources Manager', salary=37645, company='General Electric', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.245706
+inserted job Job{name='Financial Analyst', salary=70705, company='Google', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.245706
+inserted job Job{name='Lawyer', salary=128723, company='Walmart', educationLevel='Law Degree'} in table jobs,2023-05-24T12:50:56.245706
+inserted job Job{name='Accountant', salary=75838, company='Intel', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.246762100
+inserted job Job{name='Operations Manager', salary=89266, company='Tesla', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.247106700
+inserted job Job{name='Human Resources Manager', salary=50093, company='Facebook', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.247451700
+inserted job Job{name='Mechanical Engineer', salary=63277, company='Oracle', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.247451700
+inserted job Job{name='Human Resources Manager', salary=58061, company='Boeing', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.247451700
+inserted job Job{name='Healthcare Administrator', salary=73247, company='Netflix', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.248453600
+inserted job Job{name='Operations Manager', salary=86526, company='Microsoft', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.248453600
+inserted job Job{name='Journalist', salary=56154, company='Deloitte', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.249453
+inserted job Job{name='Architect', salary=52127, company='Marriott International', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.249453
+inserted job Job{name='Product Manager', salary=117055, company='Amazon', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.249453
+inserted job Job{name='Operations Manager', salary=77933, company='Netflix', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.250688900
+inserted job Job{name='Product Manager', salary=100998, company='Bloomberg', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.251032900
+inserted job Job{name='Journalist', salary=66968, company='Bloomberg', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.251382800
+inserted job Job{name='Graphic Designer', salary=55718, company='Cisco', educationLevel='Associate Degree'} in table jobs,2023-05-24T12:50:56.251721700
+inserted job Job{name='Financial Analyst', salary=66974, company='Amazon', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.252057100
+inserted job Job{name='Data Analyst', salary=59027, company='Intel', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.252057100
+inserted job Job{name='Journalist', salary=29934, company='Skidmore, Owings & Merrill', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.252057100
+inserted job Job{name='Project Manager', salary=77237, company='Walmart', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.253058700
+inserted job Job{name='Data Analyst', salary=55718, company='Netflix', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.253058700
+inserted job Job{name='Graphic Designer', salary=41099, company='Procter & Gamble', educationLevel='Associate Degree'} in table jobs,2023-05-24T12:50:56.253058700
+inserted job Job{name='Journalist', salary=46756, company='Intel', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.254058700
+inserted job Job{name='Data Analyst', salary=52841, company='Cisco', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.254058700
+inserted job Job{name='Nurse', salary=80120, company='Amazon', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.255058500
+inserted job Job{name='Human Resources Manager', salary=72582, company='Intel', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.255058500
+inserted job Job{name='Research Scientist', salary=70674, company='Bloomberg', educationLevel='PhD'} in table jobs,2023-05-24T12:50:56.255058500
+inserted job Job{name='Human Resources Manager', salary=83821, company='Bloomberg', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.256059100
+inserted job Job{name='Web Developer', salary=45109, company='Microsoft', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.256059100
+inserted job Job{name='Marketing Manager', salary=87559, company='CNN', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:50:56.256059100
+inserted job Job{name='Data Analyst', salary=60626, company='Tesla', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.257060300
+inserted job Job{name='Mechanical Engineer', salary=92382, company='General Electric', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.257060300
+inserted job Job{name='Mechanical Engineer', salary=85431, company='Apple', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.258059800
+inserted job Job{name='Web Developer', salary=37674, company='Pfizer', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.258059800
+inserted job Job{name='Social Media Manager', salary=69845, company='Marriott International', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.258059800
+inserted job Job{name='Research Scientist', salary=95689, company='Netflix', educationLevel='PhD'} in table jobs,2023-05-24T12:50:56.259060400
+inserted job Job{name='Chef', salary=23269, company='Procter & Gamble', educationLevel='Culinary Degree'} in table jobs,2023-05-24T12:50:56.259060400
+inserted job Job{name='Journalist', salary=46700, company='Oracle', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.259060400
+inserted job Job{name='Financial Analyst', salary=96383, company='Siemens', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.260060
+inserted job Job{name='Nurse', salary=68022, company='Marriott International', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.260060
+inserted job Job{name='Project Manager', salary=88088, company='Deloitte', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.260060
+inserted job Job{name='Research Scientist', salary=106047, company='Bloomberg', educationLevel='PhD'} in table jobs,2023-05-24T12:50:56.261264500
+inserted job Job{name='Social Media Manager', salary=38122, company='General Electric', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.261264500
+inserted job Job{name='Data Analyst', salary=77859, company='Microsoft', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.261264500
+inserted job Job{name='Mechanical Engineer', salary=79616, company='IBM', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:50:56.262265100
+inserted education Education{name='Bachelor's Degree', cost=14960, duration=3, type=3} in table education,2023-05-24T12:50:56.266267600
+inserted education Education{name='Trade Certification', cost=5952, duration=1, type=1} in table education,2023-05-24T12:50:56.267266900
+inserted education Education{name='Culinary Degree', cost=14720, duration=4, type=2} in table education,2023-05-24T12:50:56.267266900
+inserted education Education{name='Culinary Degree', cost=7602, duration=3, type=2} in table education,2023-05-24T12:50:56.267266900
+inserted education Education{name='Law Degree', cost=10444, duration=4, type=7} in table education,2023-05-24T12:50:56.268267200
+inserted education Education{name='Law Degree', cost=11205, duration=2, type=7} in table education,2023-05-24T12:50:56.268267200
+inserted education Education{name='Bachelor's Degree', cost=6641, duration=2, type=3} in table education,2023-05-24T12:50:56.269266800
+inserted education Education{name='PhD', cost=6248, duration=1, type=6} in table education,2023-05-24T12:50:56.269707
+inserted education Education{name='Master's Degree', cost=5082, duration=1, type=5} in table education,2023-05-24T12:50:56.270132800
+inserted education Education{name='Associate Degree', cost=10228, duration=1, type=4} in table education,2023-05-24T12:50:56.270493900
+inserted education Education{name='High School Diploma', cost=7094, duration=1, type=0} in table education,2023-05-24T12:50:56.270493900
+inserted education Education{name='High School Diploma', cost=6069, duration=1, type=0} in table education,2023-05-24T12:50:56.270493900
+inserted education Education{name='High School Diploma', cost=5816, duration=4, type=0} in table education,2023-05-24T12:50:56.271495500
+inserted education Education{name='Bachelor's Degree', cost=10070, duration=3, type=3} in table education,2023-05-24T12:50:56.271495500
+inserted education Education{name='Bachelor's Degree', cost=9528, duration=2, type=3} in table education,2023-05-24T12:50:56.271495500
+inserted education Education{name='Trade Certification', cost=6389, duration=1, type=1} in table education,2023-05-24T12:50:56.272700600
+inserted education Education{name='Law Degree', cost=13927, duration=1, type=7} in table education,2023-05-24T12:50:56.272700600
+inserted education Education{name='PhD', cost=8022, duration=2, type=6} in table education,2023-05-24T12:50:56.272700600
+inserted education Education{name='High School Diploma', cost=12016, duration=4, type=0} in table education,2023-05-24T12:50:56.273729
+inserted education Education{name='PhD', cost=7251, duration=4, type=6} in table education,2023-05-24T12:50:56.273729
+connected to the database,2023-05-24T12:53:37.986508300
+inserted car White Aston Martin DB11, 200,000€, 1yo, 77hp, 214€/mo, 600kw, 320km/h in table cars,2023-05-24T12:53:38.015514800
+inserted car Orange Ferrari 488 GTB, 300,000€, 4yo, 57hp, 505€/mo, 660kw, 330km/h in table cars,2023-05-24T12:53:38.016515600
+inserted car Red Kia Sportage, 25,000€, 2yo, 81hp, 994€/mo, 170kw, 180km/h in table cars,2023-05-24T12:53:38.017515300
+inserted car Yellow Ferrari 488 GTB, 300,000€, 5yo, 90hp, 574€/mo, 660kw, 330km/h in table cars,2023-05-24T12:53:38.017515300
+inserted car Black Bentley Continental GT, 250,000€, 0yo, 100hp, 628€/mo, 635kw, 320km/h in table cars,2023-05-24T12:53:38.018515800
+inserted car Red Lexus RX, 45,000€, 2yo, 87hp, 468€/mo, 290kw, 190km/h in table cars,2023-05-24T12:53:38.019333100
+inserted car Purple Volkswagen Golf, 18,000€, 5yo, 86hp, 393€/mo, 90kw, 180km/h in table cars,2023-05-24T12:53:38.019862600
+inserted car Green Tesla Model S, 80,000€, 4yo, 71hp, 335€/mo, 300kw, 300km/h in table cars,2023-05-24T12:53:38.020434100
+inserted car Purple Jaguar F-Type, 60,000€, 5yo, 54hp, 216€/mo, 340kw, 300km/h in table cars,2023-05-24T12:53:38.021011200
+inserted car Red Chevrolet Camaro, 35,000€, 3yo, 68hp, 665€/mo, 335kw, 180km/h in table cars,2023-05-24T12:53:38.021011200
+inserted car Orange Mercedes-Benz C-Class, 45,000€, 5yo, 98hp, 749€/mo, 140kw, 190km/h in table cars,2023-05-24T12:53:38.022012700
+inserted car Black Kia Sportage, 25,000€, 0yo, 100hp, 454€/mo, 170kw, 180km/h in table cars,2023-05-24T12:53:38.022012700
+inserted car Orange Hyundai Sonata, 22,000€, 5yo, 100hp, 418€/mo, 180kw, 170km/h in table cars,2023-05-24T12:53:38.023012100
+inserted car Black Tesla Model S, 80,000€, 2yo, 52hp, 657€/mo, 300kw, 300km/h in table cars,2023-05-24T12:53:38.023012100
+inserted car White Volvo XC60, 50,000€, 5yo, 94hp, 647€/mo, 250kw, 190km/h in table cars,2023-05-24T12:53:38.024012800
+inserted car White Tesla Model S, 80,000€, 2yo, 99hp, 364€/mo, 300kw, 300km/h in table cars,2023-05-24T12:53:38.025012600
+inserted car Purple Bentley Continental GT, 250,000€, 3yo, 78hp, 456€/mo, 635kw, 320km/h in table cars,2023-05-24T12:53:38.026013300
+inserted car Yellow Peugeot 308, 21,000€, 2yo, 70hp, 963€/mo, 120kw, 170km/h in table cars,2023-05-24T12:53:38.026013300
+inserted car Blue Subaru WRX STI, 35,000€, 4yo, 67hp, 627€/mo, 310kw, 195km/h in table cars,2023-05-24T12:53:38.027013500
+inserted car White Volvo XC60, 50,000€, 3yo, 95hp, 994€/mo, 250kw, 190km/h in table cars,2023-05-24T12:53:38.027013500
+inserted car Red Ford Mustang, 50,000€, 4yo, 82hp, 595€/mo, 250kw, 300km/h in table cars,2023-05-24T12:53:38.028014400
+inserted car Blue Mercedes-Benz C-Class, 45,000€, 2yo, 53hp, 388€/mo, 140kw, 190km/h in table cars,2023-05-24T12:53:38.028014400
+inserted car Green Ferrari 488 GTB, 300,000€, 1yo, 59hp, 777€/mo, 660kw, 330km/h in table cars,2023-05-24T12:53:38.029014200
+inserted car Orange Lamborghini Huracan, 250,000€, 5yo, 51hp, 968€/mo, 600kw, 350km/h in table cars,2023-05-24T12:53:38.029014200
+inserted car Purple Mercedes-Benz C-Class, 45,000€, 4yo, 82hp, 482€/mo, 140kw, 190km/h in table cars,2023-05-24T12:53:38.030013700
+inserted car Black Hyundai Sonata, 22,000€, 2yo, 52hp, 701€/mo, 180kw, 170km/h in table cars,2023-05-24T12:53:38.030013700
+inserted car Orange Subaru Impreza, 23,000€, 5yo, 52hp, 771€/mo, 100kw, 180km/h in table cars,2023-05-24T12:53:38.031014700
+inserted car Green Ford Focus, 18,000€, 3yo, 99hp, 579€/mo, 160kw, 180km/h in table cars,2023-05-24T12:53:38.032014400
+inserted car Orange Hyundai Sonata, 22,000€, 3yo, 82hp, 514€/mo, 180kw, 170km/h in table cars,2023-05-24T12:53:38.032014400
+inserted car Gray Nissan GT-R, 110,000€, 3yo, 98hp, 320€/mo, 570kw, 320km/h in table cars,2023-05-24T12:53:38.033015100
+inserted car Blue Land Rover Range Rover, 90,000€, 0yo, 100hp, 706€/mo, 400kw, 220km/h in table cars,2023-05-24T12:53:38.034016500
+inserted car Black Audi A4, 42,000€, 3yo, 99hp, 234€/mo, 130kw, 190km/h in table cars,2023-05-24T12:53:38.034016500
+inserted car Silver Land Rover Range Rover, 90,000€, 0yo, 100hp, 875€/mo, 400kw, 220km/h in table cars,2023-05-24T12:53:38.035015200
+inserted car Red Ford Focus, 18,000€, 4yo, 89hp, 436€/mo, 160kw, 180km/h in table cars,2023-05-24T12:53:38.036016
+inserted car Purple Chevrolet Camaro, 35,000€, 1yo, 95hp, 539€/mo, 335kw, 180km/h in table cars,2023-05-24T12:53:38.036016
+inserted car Gray Volkswagen Golf, 18,000€, 2yo, 94hp, 904€/mo, 90kw, 180km/h in table cars,2023-05-24T12:53:38.037016100
+inserted car Orange Jaguar F-Type, 60,000€, 5yo, 64hp, 867€/mo, 340kw, 300km/h in table cars,2023-05-24T12:53:38.037361600
+inserted car Black Honda Civic, 22,000€, 0yo, 100hp, 520€/mo, 115kw, 190km/h in table cars,2023-05-24T12:53:38.037845800
+inserted car Purple Lamborghini Huracan, 250,000€, 0yo, 100hp, 937€/mo, 600kw, 350km/h in table cars,2023-05-24T12:53:38.037845800
+inserted car Blue Land Rover Range Rover, 90,000€, 3yo, 80hp, 572€/mo, 400kw, 220km/h in table cars,2023-05-24T12:53:38.038846400
+inserted car Orange Hyundai Sonata, 22,000€, 0yo, 100hp, 857€/mo, 180kw, 170km/h in table cars,2023-05-24T12:53:38.038846400
+inserted car Gray Bugatti Veyron, 1,500,000€, 3yo, 100hp, 999€/mo, 1000kw, 407km/h in table cars,2023-05-24T12:53:38.039847300
+inserted car Blue Toyota Camry, 25,000€, 3yo, 57hp, 620€/mo, 110kw, 170km/h in table cars,2023-05-24T12:53:38.039847300
+inserted car White Volvo XC60, 50,000€, 2yo, 56hp, 770€/mo, 250kw, 190km/h in table cars,2023-05-24T12:53:38.040848300
+inserted car Orange Tesla Model S, 80,000€, 1yo, 64hp, 922€/mo, 300kw, 300km/h in table cars,2023-05-24T12:53:38.040848300
+inserted car Red Porsche 911, 90,000€, 1yo, 86hp, 399€/mo, 350kw, 320km/h in table cars,2023-05-24T12:53:38.041847300
+inserted car White Subaru Impreza, 23,000€, 3yo, 89hp, 861€/mo, 100kw, 180km/h in table cars,2023-05-24T12:53:38.042848700
+inserted car Red Mercedes-Benz C-Class, 45,000€, 4yo, 92hp, 315€/mo, 140kw, 190km/h in table cars,2023-05-24T12:53:38.043848900
+inserted car White Volvo XC60, 50,000€, 3yo, 51hp, 980€/mo, 250kw, 190km/h in table cars,2023-05-24T12:53:38.043848900
+inserted car Purple Peugeot 308, 21,000€, 3yo, 99hp, 590€/mo, 120kw, 170km/h in table cars,2023-05-24T12:53:38.044848500
+inserted house Suburban Home, 298,980€, 19yo, 88hp, cost: 350€/month, 1635mp, 2 rooms, income: 2,994€/month in table houses,2023-05-24T12:53:38.050850200
+inserted house Suburban Home, 299,080€, 18yo, 88hp, cost: 650€/month, 1713mp, 5 rooms, income: 2,643€/month in table houses,2023-05-24T12:53:38.051851100
+inserted house Suburban Home, 299,900€, 9yo, 80hp, cost: 450€/month, 1588mp, 3 rooms, income: 2,776€/month in table houses,2023-05-24T12:53:38.052849700
+inserted house Country Farmhouse, 399,600€, 14yo, 100hp, cost: 711€/month, 12079mp, 5 rooms, income: 607€/month in table houses,2023-05-24T12:53:38.052849700
+inserted house Country Farmhouse, 398,970€, 20yo, 97hp, cost: 711€/month, 12836mp, 5 rooms, income: 569€/month in table houses,2023-05-24T12:53:38.053850800
+inserted house Country Farmhouse, 400,400€, 6yo, 100hp, cost: 612€/month, 12738mp, 4 rooms, income: 432€/month in table houses,2023-05-24T12:53:38.054851300
+inserted house Modern Apartment, 199,730€, 11yo, 83hp, cost: 200€/month, 1139mp, 1 rooms, income: 1,922€/month in table houses,2023-05-24T12:53:38.054851300
+inserted house Country Farmhouse, 399,700€, 13yo, 100hp, cost: 511€/month, 12346mp, 3 rooms, income: 739€/month in table houses,2023-05-24T12:53:38.055851600
+inserted house Modern Apartment, 199,500€, 15yo, 100hp, cost: 399€/month, 894mp, 3 rooms, income: 1,454€/month in table houses,2023-05-24T12:53:38.055851600
+inserted house Luxury Villa, 1,000,900€, 1yo, 100hp, cost: 1,003€/month, 3576mp, 5 rooms, income: 12,257€/month in table houses,2023-05-24T12:53:38.056851900
+inserted house Modern Apartment, 199,370€, 15yo, 87hp, cost: -1€/month, 853mp, -1 rooms, income: 1,017€/month in table houses,2023-05-24T12:53:38.056851900
+inserted house Suburban Home, 300,470€, 4yo, 87hp, cost: 551€/month, 1938mp, 4 rooms, income: 2,766€/month in table houses,2023-05-24T12:53:38.057851
+inserted house Country Farmhouse, 400,810€, 1yo, 91hp, cost: 312€/month, 12593mp, 1 rooms, income: 1,228€/month in table houses,2023-05-24T12:53:38.057851
+inserted house Luxury Villa, 1,000,600€, 4yo, 100hp, cost: 1,204€/month, 4169mp, 7 rooms, income: 11,659€/month in table houses,2023-05-24T12:53:38.058852500
+inserted house Suburban Home, 299,890€, 8yo, 69hp, cost: 350€/month, 1876mp, 2 rooms, income: 2,970€/month in table houses,2023-05-24T12:53:38.059852300
+inserted house Cozy Cottage, 149,670€, 13yo, 97hp, cost: 375€/month, 1463mp, 3 rooms, income: 1,442€/month in table houses,2023-05-24T12:53:38.059852300
+inserted house Country Farmhouse, 400,200€, 8yo, 100hp, cost: 312€/month, 12396mp, 1 rooms, income: 628€/month in table houses,2023-05-24T12:53:38.060852100
+inserted house Suburban Home, 300,800€, 0yo, 80hp, cost: 652€/month, 2087mp, 5 rooms, income: 2,896€/month in table houses,2023-05-24T12:53:38.060852100
+inserted house Luxury Villa, 1,000,680€, 3yo, 98hp, cost: 1,103€/month, 3760mp, 6 rooms, income: 11,634€/month in table houses,2023-05-24T12:53:38.061852900
+inserted house Luxury Villa, 999,000€, 19yo, 90hp, cost: 1,303€/month, 4415mp, 8 rooms, income: 12,379€/month in table houses,2023-05-24T12:53:38.061852900
+inserted house Country Farmhouse, 399,660€, 13yo, 96hp, cost: 611€/month, 12912mp, 4 rooms, income: 489€/month in table houses,2023-05-24T12:53:38.062852900
+inserted house Suburban Home, 298,930€, 19yo, 83hp, cost: 450€/month, 1521mp, 3 rooms, income: 3,039€/month in table houses,2023-05-24T12:53:38.062852900
+inserted house Luxury Villa, 1,000,300€, 6yo, 90hp, cost: 1,004€/month, 4242mp, 5 rooms, income: 12,015€/month in table houses,2023-05-24T12:53:38.063852400
+inserted house Country Farmhouse, 400,800€, 1yo, 90hp, cost: 512€/month, 12810mp, 3 rooms, income: 878€/month in table houses,2023-05-24T12:53:38.063852400
+inserted house Cozy Cottage, 150,140€, 8yo, 94hp, cost: 176€/month, 1430mp, 1 rooms, income: 738€/month in table houses,2023-05-24T12:53:38.064853600
+inserted job Job{name='Customer Service Representative', salary=33170, company='Microsoft', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:53:38.069854100
+inserted job Job{name='Lawyer', salary=90012, company='Tesla', educationLevel='Law Degree'} in table jobs,2023-05-24T12:53:38.069854100
+inserted job Job{name='Project Manager', salary=58971, company='Boeing', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.070854200
+inserted job Job{name='Financial Analyst', salary=75220, company='Cisco', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.070854200
+inserted job Job{name='Marketing Coordinator', salary=30568, company='Walmart', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.070854200
+inserted job Job{name='Electrician', salary=70235, company='Kaiser Permanente', educationLevel='Trade Certification'} in table jobs,2023-05-24T12:53:38.071854400
+inserted job Job{name='Nurse', salary=55817, company='Boeing', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.071854400
+inserted job Job{name='Research Scientist', salary=61885, company='Apple', educationLevel='PhD'} in table jobs,2023-05-24T12:53:38.072854600
+inserted job Job{name='Product Manager', salary=94076, company='Oracle', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.072854600
+inserted job Job{name='Financial Analyst', salary=77937, company='Kaiser Permanente', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.072854600
+inserted job Job{name='Software Engineer', salary=113545, company='IBM', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.073854900
+inserted job Job{name='Marketing Coordinator', salary=34701, company='Marriott International', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.073854900
+inserted job Job{name='Web Developer', salary=42017, company='IBM', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.074855100
+inserted job Job{name='Chef', salary=63997, company='Walmart', educationLevel='Culinary Degree'} in table jobs,2023-05-24T12:53:38.074855100
+inserted job Job{name='Mechanical Engineer', salary=67828, company='Procter & Gamble', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.074855100
+inserted job Job{name='Customer Service Representative', salary=21890, company='Skidmore, Owings & Merrill', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:53:38.075855100
+inserted job Job{name='Software Engineer', salary=40138, company='General Electric', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.075855100
+inserted job Job{name='Software Engineer', salary=59587, company='Facebook', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.075855100
+inserted job Job{name='Product Manager', salary=45036, company='Siemens', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.076855800
+inserted job Job{name='Sales Representative', salary=27029, company='Deloitte', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:53:38.076855800
+inserted job Job{name='Electrician', salary=71363, company='IBM', educationLevel='Trade Certification'} in table jobs,2023-05-24T12:53:38.076855800
+inserted job Job{name='Marketing Coordinator', salary=42495, company='Boeing', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.077855800
+inserted job Job{name='Marketing Manager', salary=66303, company='Oracle', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.077855800
+inserted job Job{name='Financial Analyst', salary=59021, company='Boeing', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.078855700
+inserted job Job{name='Mechanical Engineer', salary=40544, company='Pfizer', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.078855700
+inserted job Job{name='Human Resources Manager', salary=73049, company='Baker McKenzie', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.078855700
+inserted job Job{name='Lawyer', salary=72086, company='Google', educationLevel='Law Degree'} in table jobs,2023-05-24T12:53:38.079856500
+inserted job Job{name='Journalist', salary=47144, company='Boeing', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.079856500
+inserted job Job{name='Financial Analyst', salary=37658, company='Deloitte', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.080857200
+inserted job Job{name='Web Developer', salary=33062, company='Boeing', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.080857200
+inserted job Job{name='Mechanical Engineer', salary=86642, company='Cisco', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.081857100
+inserted job Job{name='Project Manager', salary=78758, company='Pfizer', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.081857100
+inserted job Job{name='Customer Service Representative', salary=18333, company='Walmart', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:53:38.081857100
+inserted job Job{name='Social Media Manager', salary=49265, company='General Electric', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.082857100
+inserted job Job{name='Social Media Manager', salary=28640, company='CNN', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.082857100
+inserted job Job{name='Product Manager', salary=128704, company='Walmart', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.082857100
+inserted job Job{name='Chef', salary=28917, company='General Electric', educationLevel='Culinary Degree'} in table jobs,2023-05-24T12:53:38.083857800
+inserted job Job{name='Journalist', salary=66069, company='Google', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.083857800
+inserted job Job{name='Research Scientist', salary=56940, company='Deloitte', educationLevel='PhD'} in table jobs,2023-05-24T12:53:38.084857800
+inserted job Job{name='Product Manager', salary=61517, company='Siemens', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.084857800
+inserted job Job{name='Accountant', salary=87491, company='Cisco', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.084857800
+inserted job Job{name='Research Scientist', salary=89260, company='Kaiser Permanente', educationLevel='PhD'} in table jobs,2023-05-24T12:53:38.085857900
+inserted job Job{name='Mechanical Engineer', salary=102786, company='Boeing', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.085857900
+inserted job Job{name='Sales Representative', salary=40656, company='Cisco', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:53:38.085857900
+inserted job Job{name='Lawyer', salary=143895, company='Oracle', educationLevel='Law Degree'} in table jobs,2023-05-24T12:53:38.086858
+inserted job Job{name='Marketing Manager', salary=55800, company='Marriott International', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.086858
+inserted job Job{name='Software Engineer', salary=103801, company='Apple', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.086858
+inserted job Job{name='Web Developer', salary=51260, company='Google', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.087859100
+inserted job Job{name='Marketing Coordinator', salary=58868, company='Netflix', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.087859100
+inserted job Job{name='Architect', salary=84847, company='CNN', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.088859100
+inserted job Job{name='Financial Analyst', salary=58387, company='Boeing', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.088859100
+inserted job Job{name='Financial Analyst', salary=47202, company='IBM', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.089858700
+inserted job Job{name='Project Manager', salary=93865, company='Intel', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.089858700
+inserted job Job{name='Accountant', salary=55867, company='Procter & Gamble', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.090859500
+inserted job Job{name='Data Scientist', salary=76372, company='Skidmore, Owings & Merrill', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.090859500
+inserted job Job{name='Chef', salary=33033, company='Baker McKenzie', educationLevel='Culinary Degree'} in table jobs,2023-05-24T12:53:38.090859500
+inserted job Job{name='Social Media Manager', salary=61047, company='J.P. Morgan', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.091859
+inserted job Job{name='Chef', salary=37295, company='General Electric', educationLevel='Culinary Degree'} in table jobs,2023-05-24T12:53:38.091859
+inserted job Job{name='Financial Analyst', salary=67392, company='Skidmore, Owings & Merrill', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.091859
+inserted job Job{name='Project Manager', salary=62275, company='Oracle', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.092858500
+inserted job Job{name='Architect', salary=48829, company='Microsoft', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.092858500
+inserted job Job{name='Product Manager', salary=52024, company='Siemens', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.093859200
+inserted job Job{name='Product Manager', salary=45437, company='Deloitte', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.093859200
+inserted job Job{name='Electrician', salary=50203, company='Facebook', educationLevel='Trade Certification'} in table jobs,2023-05-24T12:53:38.093859200
+inserted job Job{name='Graphic Designer', salary=71471, company='Deloitte', educationLevel='Associate Degree'} in table jobs,2023-05-24T12:53:38.094859300
+inserted job Job{name='Accountant', salary=76509, company='CNN', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.094859300
+inserted job Job{name='Product Manager', salary=56197, company='Microsoft', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.095860
+inserted job Job{name='Research Scientist', salary=116006, company='CNN', educationLevel='PhD'} in table jobs,2023-05-24T12:53:38.095860
+inserted job Job{name='Architect', salary=75655, company='Netflix', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.095860
+inserted job Job{name='Marketing Coordinator', salary=48893, company='Tesla', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.096860100
+inserted job Job{name='Financial Analyst', salary=47504, company='Siemens', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.096860100
+inserted job Job{name='Architect', salary=93871, company='Procter & Gamble', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.096860100
+inserted job Job{name='Lawyer', salary=158095, company='Kaiser Permanente', educationLevel='Law Degree'} in table jobs,2023-05-24T12:53:38.097860700
+inserted job Job{name='Journalist', salary=49169, company='J.P. Morgan', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.097860700
+inserted job Job{name='Mechanical Engineer', salary=43266, company='Bloomberg', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.097860700
+inserted job Job{name='Project Manager', salary=51770, company='Kaiser Permanente', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.098861500
+inserted job Job{name='Chef', salary=39742, company='Bloomberg', educationLevel='Culinary Degree'} in table jobs,2023-05-24T12:53:38.098861500
+inserted job Job{name='Operations Manager', salary=111658, company='Pfizer', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.098861500
+inserted job Job{name='Research Scientist', salary=54694, company='Amazon', educationLevel='PhD'} in table jobs,2023-05-24T12:53:38.099861
+inserted job Job{name='Financial Analyst', salary=50621, company='Ford', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.099861
+inserted job Job{name='Healthcare Administrator', salary=57065, company='Ford', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.100861
+inserted job Job{name='Human Resources Manager', salary=103072, company='Tesla', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.100861
+inserted job Job{name='Journalist', salary=52012, company='Facebook', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.100861
+inserted job Job{name='Sales Representative', salary=29497, company='Baker McKenzie', educationLevel='High School Diploma'} in table jobs,2023-05-24T12:53:38.101860900
+inserted job Job{name='Architect', salary=75832, company='J.P. Morgan', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.101860900
+inserted job Job{name='Data Scientist', salary=55327, company='Skidmore, Owings & Merrill', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.101860900
+inserted job Job{name='Accountant', salary=34298, company='Boeing', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.102862300
+inserted job Job{name='Accountant', salary=34113, company='Netflix', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.102862300
+inserted job Job{name='Marketing Manager', salary=45829, company='Boeing', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.102862300
+inserted job Job{name='Project Manager', salary=95568, company='Boeing', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.103862200
+inserted job Job{name='Project Manager', salary=87571, company='Deloitte', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.103862200
+inserted job Job{name='Lawyer', salary=103211, company='J.P. Morgan', educationLevel='Law Degree'} in table jobs,2023-05-24T12:53:38.104862700
+inserted job Job{name='Financial Analyst', salary=39267, company='Procter & Gamble', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.104862700
+inserted job Job{name='Operations Manager', salary=90835, company='Cisco', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.104862700
+inserted job Job{name='Mechanical Engineer', salary=81682, company='Oracle', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.105862500
+inserted job Job{name='Data Scientist', salary=56902, company='Amazon', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.105862500
+inserted job Job{name='Software Engineer', salary=87276, company='Procter & Gamble', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.105862500
+inserted job Job{name='Mechanical Engineer', salary=78916, company='Netflix', educationLevel='Bachelor's Degree'} in table jobs,2023-05-24T12:53:38.106862500
+inserted job Job{name='Data Scientist', salary=80670, company='Intel', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.106862500
+inserted job Job{name='Data Scientist', salary=46687, company='Walmart', educationLevel='Master's Degree'} in table jobs,2023-05-24T12:53:38.107862800
+inserted education Education{name='High School Diploma', cost=12948, duration=1, type=0} in table education,2023-05-24T12:53:38.111864500
+inserted education Education{name='High School Diploma', cost=8915, duration=3, type=0} in table education,2023-05-24T12:53:38.112863800
+inserted education Education{name='Trade Certification', cost=12328, duration=4, type=1} in table education,2023-05-24T12:53:38.112863800
+inserted education Education{name='Culinary Degree', cost=11991, duration=2, type=2} in table education,2023-05-24T12:53:38.113863400
+inserted education Education{name='PhD', cost=11191, duration=1, type=6} in table education,2023-05-24T12:53:38.113863400
+inserted education Education{name='PhD', cost=10912, duration=2, type=6} in table education,2023-05-24T12:53:38.113863400
+inserted education Education{name='PhD', cost=5576, duration=2, type=6} in table education,2023-05-24T12:53:38.114864600
+inserted education Education{name='Trade Certification', cost=13187, duration=1, type=1} in table education,2023-05-24T12:53:38.114864600
+inserted education Education{name='Master's Degree', cost=9471, duration=4, type=5} in table education,2023-05-24T12:53:38.115864600
+inserted education Education{name='Associate Degree', cost=12942, duration=1, type=4} in table education,2023-05-24T12:53:38.115864600
+inserted education Education{name='Master's Degree', cost=5107, duration=2, type=5} in table education,2023-05-24T12:53:38.115864600
+inserted education Education{name='High School Diploma', cost=14878, duration=4, type=0} in table education,2023-05-24T12:53:38.116865100
+inserted education Education{name='Master's Degree', cost=7626, duration=1, type=5} in table education,2023-05-24T12:53:38.116865100
+inserted education Education{name='Culinary Degree', cost=11901, duration=2, type=2} in table education,2023-05-24T12:53:38.116865100
+inserted education Education{name='Trade Certification', cost=6545, duration=2, type=1} in table education,2023-05-24T12:53:38.117865800
+inserted education Education{name='Bachelor's Degree', cost=10135, duration=2, type=3} in table education,2023-05-24T12:53:38.117865800
+inserted education Education{name='Law Degree', cost=7736, duration=4, type=7} in table education,2023-05-24T12:53:38.118865300
+inserted education Education{name='PhD', cost=9501, duration=4, type=6} in table education,2023-05-24T12:53:38.118865300
+inserted education Education{name='Trade Certification', cost=5866, duration=1, type=1} in table education,2023-05-24T12:53:38.119865500
+inserted education Education{name='Bachelor's Degree', cost=12595, duration=1, type=3} in table education,2023-05-24T12:53:38.119865500
