@@ -15,19 +15,15 @@ public class Education {
     public String getName() {
         return name;
     }
-
     public int getCost() {
         return cost;
     }
-
     public int getDuration() {
         return duration;
     }
-
     public int getType() {
         return type;
     }
-
     @Override
     public String toString() {
         return "Education{" +

@@ -181,6 +181,10 @@ public class Player {
         this.looksProperty.set(this.stats.getLooks() + randomLooksModifier);
     }
     public void advanceAge(){
+        int currentAge = getInstance().getAge();
+        if (currentAge == 0){
+            GameState.getInstance().getEventList().add("I was born a " + Player.getInstance().getGender() + " in " + Player.getInstance().getNationality() + ".");
+        }
         setAge(getAge() + 1);
         for (Car car : this.cars){
             car.setAge(car.getAge() + 1);
@@ -197,8 +201,7 @@ public class Player {
             money -= ((100 - this.stats.getHealth()) * 12);
         }
         modifyStats();
-        GameState.getInstance().getEventList().add("I am now " + getInstance().getAge() + " years old.");
-        int currentAge = getInstance().getAge();
+        GameState.getInstance().getEventList().add("I am now " + currentAge + " years old.");
         if (currentAge == 7) {
             getInstance().setEducationStatus("In School");
             GameState.getInstance().getEventList().add("I started primary school.");

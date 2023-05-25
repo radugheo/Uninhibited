@@ -55,6 +55,7 @@ public class IntroController{
         Stats stats = Stats.getInstance(randomHealth, randomHappiness, randomIntelligence, randomLooks);
         Player.getInstance(name, gender, birthCountry, Stats.getInstance());
         Player.getInstance().setMoney(10000000);
+        Player.getInstance().setAge(0);
 
         DbFunctions.populateDatabase();
         try {
