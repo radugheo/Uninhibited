@@ -25,23 +25,23 @@
     -fx-background-color: linear-gradient(#FFC6E2, #C6E2FF);
 }
 
-.house-list {
+.animal-list {
     -fx-background-color: #f8f8f8;
     -fx-border-color: #d3d3d3;
     -fx-border-radius: 5px;
     -fx-cell-hover-color: #e8e8e8;
 }
 
-.house-list .list-cell {
+.animal-list .list-cell {
     -fx-text-fill: #000;
     -fx-padding: 5px;
     -fx-font-size: 14pt;
 }
 
-.house-list .list-cell:empty {
+.animal-list .list-cell:empty {
     -fx-background-color: transparent;
 }
 
-.house-list .list-cell:selected {
+.animal-list .list-cell:selected {
     -fx-background-color: #add8e6;
 }

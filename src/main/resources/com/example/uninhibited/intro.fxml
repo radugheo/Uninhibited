@@ -10,8 +10,9 @@
             <StackPane>
                 <Text text="Uninhibited" styleClass="logo-text" />
             </StackPane>
-            <TextField fx:id="nameInput" promptText="Name" prefWidth="150"/>
-            <TextField fx:id="genderInput" promptText="Gender" prefWidth="150"/>
+            <TextField fx:id="firstNameInput" promptText="First name" prefWidth="150"/>
+            <TextField fx:id="lastNameInput" promptText="Last name" prefWidth="150"/>
+            <ComboBox fx:id="genderInput" promptText="Gender" prefWidth="150"/>
             <ComboBox fx:id="birthCountryInput" promptText="Birth Country" prefWidth="150"/>
             <Button text="Start Game" prefWidth="150" styleClass="start-button" onAction="#onStartButtonClick">
                 <stylesheets>

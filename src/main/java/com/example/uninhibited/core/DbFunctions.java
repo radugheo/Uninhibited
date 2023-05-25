@@ -1,9 +1,6 @@
 package com.example.uninhibited.core;
 
-import com.example.uninhibited.generators.CarGenerator;
-import com.example.uninhibited.generators.EducationGenerator;
-import com.example.uninhibited.generators.HouseGenerator;
-import com.example.uninhibited.generators.JobGenerator;
+import com.example.uninhibited.generators.*;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -71,6 +68,19 @@ public class DbFunctions {
         Statement statement;
         try {
             String query = "CREATE TABLE " + tableName + " (education_id SERIAL, name VARCHAR(200), cost NUMERIC(200), duration NUMERIC(200), type NUMERIC(200), PRIMARY KEY(education_id));";
+            statement = conn.createStatement();
+            statement.executeUpdate(query);
+            System.out.println("Table " + tableName + " created");
+            AuditService.writeAuditLog("created table " + tableName);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+
+    public static void createAnimalTable(String tableName) {
+        Statement statement;
+        try {
+            String query = "CREATE TABLE " + tableName + " (animal_id SERIAL, name VARCHAR(200), type VARCHAR(200), age NUMERIC(200), monthly_cost NUMERIC(200), health NUMERIC(200), PRIMARY KEY(animal_id));";
             statement = conn.createStatement();
             statement.executeUpdate(query);
             System.out.println("Table " + tableName + " created");
@@ -148,6 +158,22 @@ public class DbFunctions {
         }
     }
 
+    public static void insertAnimal(String tableName, Animal animal) {
+        try {
+            String query = "INSERT INTO " + tableName + " (name, type, age, monthly_cost, health) VALUES (?, ?, ?, ?, ?);";
+            PreparedStatement preparedStatement = conn.prepareStatement(query);
+            preparedStatement.setString(1, animal.getName());
+            preparedStatement.setString(2, animal.getType());
+            preparedStatement.setDouble(3, animal.getAge());
+            preparedStatement.setDouble(4, animal.getMonthlyCost());
+            preparedStatement.setDouble(5, animal.getHealth());
+            preparedStatement.executeUpdate();
+            AuditService.writeAuditLog("inserted animal " + animal + " in table " + tableName);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+    }
+
     public static ArrayList<Car> selectCars(String tableName) {
         try {
             String query = "SELECT * FROM " + tableName;
@@ -155,7 +181,6 @@ public class DbFunctions {
             ResultSet resultSet = statement.executeQuery(query);
             ArrayList<Car> cars = new ArrayList<>();
             while (resultSet.next()) {
-                int carId = resultSet.getInt("car_id");
                 String name = resultSet.getString("name");
                 int price = resultSet.getInt("price");
                 int age = resultSet.getInt("age");
@@ -186,7 +211,6 @@ public class DbFunctions {
             ResultSet resultSet = statement.executeQuery(query);
             ArrayList<House> houses = new ArrayList<>();
             while (resultSet.next()) {
-                int houseId = resultSet.getInt("house_id");
                 String name = resultSet.getString("name");
                 int price = resultSet.getInt("price");
                 int age = resultSet.getInt("age");
@@ -217,13 +241,11 @@ public class DbFunctions {
             ResultSet resultSet = statement.executeQuery(query);
 
             while (resultSet.next()) {
-                int jobId = resultSet.getInt("job_id");
                 String name = resultSet.getString("name");
                 double salary = resultSet.getDouble("salary");
                 String company = resultSet.getString("company");
                 String educationLevel = resultSet.getString("education_level");
 
-                System.out.println("Job ID: " + jobId);
                 System.out.println("Name: " + name);
                 System.out.println("Salary: " + salary);
                 System.out.println("Company: " + company);
@@ -246,13 +268,11 @@ public class DbFunctions {
             ResultSet resultSet = statement.executeQuery(query);
 
             while (resultSet.next()) {
-                int educationId = resultSet.getInt("education_id");
                 String name = resultSet.getString("name");
                 double cost = resultSet.getDouble("cost");
                 double duration = resultSet.getDouble("duration");
                 double type = resultSet.getDouble("type");
 
-                System.out.println("Education ID: " + educationId);
                 System.out.println("Name: " + name);
                 System.out.println("Cost: " + cost);
                 System.out.println("Duration: " + duration);
@@ -265,6 +285,32 @@ public class DbFunctions {
             AuditService.writeAuditLog("selected all from table " + tableName);
         } catch (Exception e) {
             System.out.println(e);
+        }
+    }
+
+    public static ArrayList<Animal> selectAnimals (String tableName) {
+        try {
+            String query = "SELECT * FROM " + tableName;
+            Statement statement = conn.createStatement();
+            ResultSet resultSet = statement.executeQuery(query);
+            ArrayList<Animal> animals = new ArrayList<>();
+            while (resultSet.next()) {
+                String type = resultSet.getString("type");
+                int age = resultSet.getInt("age");
+                int health = resultSet.getInt("health");
+                int monthlyCost = resultSet.getInt("monthly_cost");
+
+                Animal animal = new Animal(type, age, health, monthlyCost);
+                animals.add(animal);
+            }
+
+            resultSet.close();
+            statement.close();
+            AuditService.writeAuditLog("selected all from table " + tableName);
+            return animals;
+        } catch (Exception e) {
+            System.out.println(e);
+            return null;
         }
     }
 
@@ -315,6 +361,7 @@ public class DbFunctions {
             DbFunctions.createHouseTable("houses");
             DbFunctions.createJobTable("jobs");
             DbFunctions.createEducationTable("education");
+            DbFunctions.createAnimalTable("animals");
             // insert data
             ArrayList<Car> cars = CarGenerator.getCars();
             for (Car car : cars) {
@@ -336,6 +383,11 @@ public class DbFunctions {
                 DbFunctions.insertEducation("education", education);
             }
             System.out.println("Educations inserted");
+            ArrayList<Animal> animals = AnimalGenerator.getAnimals();
+            for (Animal animal : animals) {
+                DbFunctions.insertAnimal("animals", animal);
+            }
+            System.out.println("Animals inserted");
         } catch (Exception e) {
             System.out.println(e);
         }

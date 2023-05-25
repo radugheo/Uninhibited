@@ -7,8 +7,8 @@
       xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.uninhibited.controllers.HouseMenuController"
       style="-fx-padding: 10; -fx-font-size: 14pt;">
     <Label text="Choose a category:" />
-    <RadioButton fx:id="allHousesButton" text="All Houses" onAction="#handleRadioButtonSelection"/>
-    <RadioButton fx:id="yourHousesButton" text="Your Houses" onAction="#handleRadioButtonSelection"/>
+    <RadioButton fx:id="allHousesButton" text="All houses" onAction="#handleRadioButtonSelection"/>
+    <RadioButton fx:id="yourHousesButton" text="Your houses" onAction="#handleRadioButtonSelection"/>
     <Button text="Back" onAction="#onBackButtonClick" />
     <stylesheets>
         <URL value="@styles/houses.css" />

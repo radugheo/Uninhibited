@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.VBox?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.uninhibited.controllers.AllAnimalsController"
+      style="-fx-padding: 10; -fx-font-size: 14pt;">
+    <ListView fx:id="listView" prefWidth="800" prefHeight="600" styleClass="animal-list"/>
+    <Button text="Back" onAction="#onBackButtonClick" />
+    <stylesheets>
+        <URL value="@styles/animals.css" />
+    </stylesheets>
+</VBox>

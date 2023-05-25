@@ -131,10 +131,18 @@ public class MainController{
     }
     @FXML
     public void onAnimalsButtonClick() {
-        // TODO: Go to the animals screen
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/uninhibited/animals_menu.fxml"));
+            Parent homeRoot = loader.load();
+            SceneUtil.getMainScene().setRoot(homeRoot);
+            AnimalMenuController animalMenuController = loader.getController();
+            animalMenuController.setPrimaryStage(primaryStage);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
     public void displayText(){
-        playerNameAge.setText(Player.getInstance().getName() + ", " + Player.getInstance().getAge() + " yo");
+        playerNameAge.setText(Player.getInstance().getFirstName() + " " + Player.getInstance().getLastName() + ", " + Player.getInstance().getAge() + " yo");
         playerNationality.setText(Player.getInstance().getNationality());
         playerMoney.setText("€" + GameState.getInstance().formatMoney(Player.getInstance().getMoney()));
         initializeBar(healthBarForeground, Player.getInstance().healthProperty());

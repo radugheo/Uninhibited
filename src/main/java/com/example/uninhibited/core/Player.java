@@ -10,7 +10,8 @@ import java.util.Random;
 
 public class Player {
     private static Player instance = null;
-    private String name;
+    private String firstName;
+    private String lastName;
     private int age;
     private String gender;
     private String nationality;
@@ -26,8 +27,9 @@ public class Player {
     private DoubleProperty smartsProperty;
     private DoubleProperty looksProperty;
     private final StringProperty educationStatus = new SimpleStringProperty();
-    private Player(String name_, String gender_, String nationality_, Stats stats_) {
-        this.name = name_;
+    private Player(String firstName_, String lastName_, String gender_, String nationality_, Stats stats_) {
+        this.firstName = firstName_;
+        this.lastName = lastName_;
         this.gender = gender_;
         this.nationality = nationality_;
         this.stats = stats_;
@@ -60,12 +62,21 @@ public class Player {
     public void setEducationStatus(String status) {
         this.educationStatus.set(status);
     }
-    public String getName() {
-        return this.name;
+    public String getFirstName() {
+        return firstName;
     }
-    public void setName(String name_) {
-        this.name = name_;
+    public String getLastName() {
+        return lastName;
     }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
     public int getAge() {
         return this.age;
     }
@@ -139,6 +150,12 @@ public class Player {
         this.houses.remove(house_);
         this.money += house_.getPrice();
     }
+    public void adoptAnimal(Animal animal_) {
+        this.animals.add(animal_);
+    }
+    public void abandonAnimal(Animal animal_) {
+        this.animals.remove(animal_);
+    }
     public void modifyStats(){
         Random random = new Random();
         int randomHealthModifier = random.nextInt(5) - 2;
@@ -197,6 +214,10 @@ public class Player {
                 money += (house.getMonthlyIncome() * 12);
             }
         }
+        for (Animal animal : this.animals){
+            animal.setAge(animal.getAge() + 1);
+            money -= (animal.getMonthlyCost() * 12);
+        }
         if (age > 18){
             money -= ((100 - this.stats.getHealth()) * 12);
         }
@@ -227,9 +248,9 @@ public class Player {
             }
         }
     }
-    public static Player getInstance(String name_, String gender_, String nationality_, Stats stats_) {
+    public static Player getInstance(String firstName_, String lastName_, String gender_, String nationality_, Stats stats_) {
         if(instance == null) {
-            instance = new Player(name_, gender_, nationality_, stats_);
+            instance = new Player(firstName_, lastName_, gender_, nationality_, stats_);
         }
         return instance;
     }

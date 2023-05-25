@@ -98,7 +98,7 @@ public class GameEngine {
         int randomIntelligence = random.nextInt(101);
         int randomLooks = random.nextInt(101);
         Stats.getInstance(randomHealth, randomHappiness, randomIntelligence, randomLooks);
-        Player.getInstance(inputName, inputGender, inputNationality, Stats.getInstance());
+        Player.getInstance(inputName, inputName, inputGender, inputNationality, Stats.getInstance());
         this.player.setMoney(500000000);
     }
     public void modifyStats(){
@@ -182,7 +182,7 @@ public class GameEngine {
         System.out.println("------------------------------------------------");
     }
     public void showData(){
-        System.out.println(this.player.getName() + ", " + this.player.getNationality());
+        System.out.println(this.player.getFirstName() + this.player.getLastName() + ", " + this.player.getNationality());
         System.out.println("You are a " + this.player.getAge() + " years old " + this.player.getGender() + ".");
         System.out.println("Budget: " + "€" + this.player.getMoney());
         showStats();

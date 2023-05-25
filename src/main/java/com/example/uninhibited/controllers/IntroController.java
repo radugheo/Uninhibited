@@ -20,26 +20,37 @@ import java.util.Random;
 
 public class IntroController{
     @FXML
-    private TextField nameInput;
+    private TextField firstNameInput;
     @FXML
-    private TextField genderInput;
+    private TextField lastNameInput;
+    @FXML
+    private ComboBox<String> genderInput;
     @FXML
     private ComboBox<String> birthCountryInput;
     private Stage primaryStage;
-
     public void setPrimaryStage(Stage primaryStage) {
         this.primaryStage = primaryStage;
+    }
+    private String capitalizeFirstLetter(String str) {
+        if (str == null || str.isEmpty()) {
+            return str;
+        } else {
+            return str.substring(0, 1).toUpperCase() + str.substring(1).toLowerCase();
+        }
     }
     public void initialize() {
         ObservableList<String> countries = FXCollections.observableArrayList("Romania", "Hungary", "Bulgaria", "Moldova", "Serbia", "Ukraine", "Russia", "Belarus", "Poland", "Czechia", "Slovakia", "Slovenia", "Croatia", "Bosnia and Herzegovina", "Montenegro", "Albania", "North Macedonia", "Kosovo", "Greece", "Turkey", "Austria", "Germany", "Switzerland", "France", "Belgium", "Netherlands", "Luxembourg", "United Kingdom", "Ireland", "Denmark", "Norway", "Sweden", "Finland", "Estonia", "Latvia", "Lithuania", "Spain", "Portugal", "Italy", "Malta", "Cyprus");
         birthCountryInput.setItems(countries);
+        ObservableList<String> genders = FXCollections.observableArrayList("Male", "Female");
+        genderInput.setItems(genders);
     }
     @FXML
     public void onStartButtonClick(ActionEvent event) throws IOException {
-        String name = nameInput.getText();
-        String gender = genderInput.getText();
+        String firstName = capitalizeFirstLetter(firstNameInput.getText());
+        String lastName = capitalizeFirstLetter(lastNameInput.getText());
+        String gender = genderInput.getValue();
         String birthCountry = birthCountryInput.getValue();
-        if (name.isEmpty() || gender.isEmpty() || birthCountry == null) {
+        if (firstName.isEmpty() || lastName.isEmpty() || gender.isEmpty() || birthCountry == null) {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setTitle("Error");
             alert.setHeaderText(null);
@@ -53,7 +64,7 @@ public class IntroController{
         int randomIntelligence = random.nextInt(101);
         int randomLooks = random.nextInt(101);
         Stats stats = Stats.getInstance(randomHealth, randomHappiness, randomIntelligence, randomLooks);
-        Player.getInstance(name, gender, birthCountry, Stats.getInstance());
+        Player.getInstance(firstName, lastName, gender, birthCountry, Stats.getInstance());
         Player.getInstance().setMoney(10000000);
         Player.getInstance().setAge(0);
 
