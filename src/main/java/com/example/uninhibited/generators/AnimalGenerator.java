@@ -14,7 +14,7 @@ public class AnimalGenerator {
         ANIMAL_ATTRIBUTES_MAP.put("Dog", new AnimalAttributes("Dog", 7, 80, 95));
         ANIMAL_ATTRIBUTES_MAP.put("Bird", new AnimalAttributes("Bird", 2, 20, 80));
         ANIMAL_ATTRIBUTES_MAP.put("Fish", new AnimalAttributes("Fish", 1, 10, 70));
-        ANIMAL_ATTRIBUTES_MAP.put("Turtle", new AnimalAttributes("Turtle", 10, 30, 85));
+        ANIMAL_ATTRIBUTES_MAP.put("Cow", new AnimalAttributes("Cow", 10, 30, 85));
         ANIMAL_ATTRIBUTES_MAP.put("Lion", new AnimalAttributes("Lion", 8, 500, 90));
         ANIMAL_ATTRIBUTES_MAP.put("Elephant", new AnimalAttributes("Elephant", 15, 1000, 85));
         ANIMAL_ATTRIBUTES_MAP.put("Giraffe", new AnimalAttributes("Giraffe", 10, 400, 95));

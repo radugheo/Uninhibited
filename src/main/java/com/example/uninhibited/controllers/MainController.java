@@ -27,6 +27,8 @@ public class MainController{
     @FXML
     public Button animalsButton;
     @FXML
+    public Button quitButton;
+    @FXML
     private Label playerNameAge;
     @FXML
     private Label playerNationality;
@@ -66,12 +68,12 @@ public class MainController{
         bar.fillProperty().bind(
                 Bindings.createObjectBinding(() -> {
                     double progress = property.get() / 100.0;
-                    if (progress == 0){
+                    if (progress <= 0){
                         return new LinearGradient(0, 0, 1, 0, true, CycleMethod.NO_CYCLE,
                                 new Stop(0, Color.BLACK),
                                 new Stop(1, Color.BLACK));
                     }
-                    else if (progress == 1){
+                    else if (progress >= 1){
                         return new LinearGradient(0, 0, 1, 0, true, CycleMethod.NO_CYCLE,
                                 new Stop(0, Color.GREEN),
                                 new Stop(1, Color.GREEN));
@@ -113,6 +115,10 @@ public class MainController{
         }
     }
     @FXML
+    public void onActionsButtonClick(){
+        // TODO: Go to the actions screen
+    }
+    @FXML
     public void onAgeUpButtonClick() {
         Player.getInstance().advanceAge();
         displayText();
@@ -140,6 +146,10 @@ public class MainController{
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+    @FXML
+    public void onQuitButtonClick() {
+        Platform.exit();
     }
     public void displayText(){
         playerNameAge.setText(Player.getInstance().getFirstName() + " " + Player.getInstance().getLastName() + ", " + Player.getInstance().getAge() + " yo");

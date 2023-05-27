@@ -57,6 +57,7 @@
                 <padding>
                     <Insets top="0" right="0" bottom="10" left="0" />
                 </padding>
+                <Button fx:id="actionsButton" text="Actions" onAction="#onActionsButtonClick"/>
                 <Button fx:id="educationButton" text="Education" onAction="#onEducationButtonClick"/>
                 <Button fx:id="jobsButton" text="Jobs" onAction="#onJobsButtonClick"/>
                 <Button fx:id="carsButton" text="Cars" onAction="#onCarsButtonClick"/>
@@ -64,6 +65,7 @@
                 <Button fx:id="housesButton" text="Houses" onAction="#onHousesButtonClick"/>
                 <Button fx:id="animalsButton" text="Animals" onAction="#onAnimalsButtonClick"/>
                 <Button fx:id="profileButton" text="Profile" onAction="#onProfileButtonClick"/>
+                <Button fx:id="quitButton" text="Quit" onAction="#onQuitButtonClick"/>
             </HBox>
         </VBox>
     </bottom>
